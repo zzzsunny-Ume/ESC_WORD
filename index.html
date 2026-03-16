@@ -429,8 +429,22 @@
     }
 
     // --- 발음 듣기 ---
+    // 음성 목록 사전 캐싱 (모바일 브라우저는 비동기로 로드됨)
+    let cachedVoices = [];
+    function loadVoices() {
+        const v = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
+        if (v.length) cachedVoices = v;
+    }
+    if (window.speechSynthesis) {
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+        loadVoices();
+    }
+
     function speak(text, btnId) {
-        if (!window.speechSynthesis) return;
+        if (!window.speechSynthesis) {
+            alert('이 브라우저에서는 발음 듣기가 지원되지 않습니다.');
+            return;
+        }
         window.speechSynthesis.cancel();
 
         const btn = document.getElementById(btnId);
@@ -438,14 +452,22 @@
         utt.lang = 'en-US';
         utt.rate = 0.9;
 
-        // 영어 음성 우선 선택
-        const voices = window.speechSynthesis.getVoices();
-        const engVoice = voices.find(v => v.lang.startsWith('en') && v.localService) || voices.find(v => v.lang.startsWith('en'));
+        // 캐시된 음성 사용 (없으면 lang='en-US'만으로 재생 시도)
+        const voices = cachedVoices.length ? cachedVoices : window.speechSynthesis.getVoices();
+        const engVoice = voices.find(v => v.lang === 'en-US' && v.localService)
+                      || voices.find(v => v.lang.startsWith('en-') && v.localService)
+                      || voices.find(v => v.lang.startsWith('en'));
         if (engVoice) utt.voice = engVoice;
 
         utt.onstart = () => btn && btn.classList.add('speaking');
-        utt.onend = () => btn && btn.classList.remove('speaking');
-        utt.onerror = () => btn && btn.classList.remove('speaking');
+        utt.onend   = () => btn && btn.classList.remove('speaking');
+        utt.onerror = (e) => {
+            btn && btn.classList.remove('speaking');
+            // interrupted는 cancel()에 의한 정상 중단이므로 무시
+            if (e.error && e.error !== 'interrupted') {
+                alert('발음 재생에 실패했습니다.\n카카오톡 내 브라우저보다 Safari나 Chrome으로 열면 더 잘 작동해요.');
+            }
+        };
 
         window.speechSynthesis.speak(utt);
     }
