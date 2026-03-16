@@ -344,11 +344,15 @@
             return;
         }
 
-        // 최신순 정렬 후 검색 필터
+        // 오늘 날짜 (로컬 기준 YYYY-MM-DD)
+        const today = new Date();
+        const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+
+        // 최신순 정렬 → 미래 날짜 제외 → 검색 필터
         const reversed = [...quizzes].map((quiz, i) => ({ quiz, originalIndex: i })).reverse();
-        const filtered = searchQuery
-            ? reversed.filter(({ quiz }) => quiz.title.toLowerCase().includes(searchQuery))
-            : reversed;
+        const filtered = reversed
+            .filter(({ quiz }) => quiz.date <= todayStr)
+            .filter(({ quiz }) => !searchQuery || quiz.title.toLowerCase().includes(searchQuery));
 
         if (filtered.length === 0) {
             listDiv.innerHTML = '<div class="widget-card" style="text-align:center; color:#8E8E93; font-weight:500;">🔍 검색 결과가 없습니다.</div>';
@@ -369,11 +373,8 @@
             listDiv.appendChild(item);
         });
 
-        // 더보기 버튼 표시 여부
-        const reversed2 = [...quizzes].map((quiz, i) => ({ quiz, originalIndex: i })).reverse();
-        const totalFiltered = searchQuery
-            ? reversed2.filter(({ quiz }) => quiz.title.toLowerCase().includes(searchQuery)).length
-            : quizzes.length;
+        // 더보기 버튼 표시 여부 (미래 날짜 제외 + 검색 반영)
+        const totalFiltered = filtered.length;
 
         if (totalFiltered > displayLimit) {
             document.getElementById('btn-load-more').classList.remove('hidden');

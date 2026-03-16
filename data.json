@@ -231,6 +231,160 @@
                 "sentence": "This curry is extremely ___."
             }
         ]
-    }   
+    },
+    
+    [
+        {
+            "title": "Today's Expression 복습💌",
+            "date": "2026-03-18",
+            "questions": [
+                {
+                    "meaning": "혹시",
+                    "answers": ["by any chance"],
+                    "sentence": "Do you have a spare umbrella I could borrow, ___?"
+                },
+                {
+                    "meaning": "(두 가지 사이에서) 고민 중인",
+                    "answers": ["torn between"],
+                    "sentence": "She was ___ staying home or going to the party."
+                },
+                {
+                    "meaning": "천만다행이다 / 운 좋게 위기를 피하다",
+                    "answers": ["dodged a bullet"],
+                    "sentence": "The meeting was canceled right as I realized I was late. I totally ___!"
+                },
+                {
+                    "meaning": "아직 결정되지 않은 / 불확실한",
+                    "answers": ["up in the air"],
+                    "sentence": "Everything is ___ right now, so we should wait and see."
+                },
+                {
+                    "meaning": "~에 익숙해지다 / 요령을 터득하다 / 감을 잡다",
+                    "answers": ["get the hang of"],
+                    "sentence": "It’s a bit tricky at first, but you’ll ___ it soon."
+                },
+                {
+                    "meaning": "어쨌든 / 어느 쪽이든 마찬가지로",
+                    "answers": ["Either way"],
+                    "sentence": "I don't know if he's busy or just forgot, but ___, he should have called."
+                },
+                {
+                    "meaning": "미리 알려주다 / 귀띔해주다",
+                    "answers": ["give a heads up"],
+                    "sentence": "I just wanted to ___ you ___ that I might be a little late tonight."
+                },
+                {
+                    "meaning": "~로 정하다(선택하다) / ~와 어울리다",
+                    "answers": ["go with"],
+                    "sentence": "I think I’ll ___ the cheeseburger for lunch."
+                },
+                {
+                    "meaning": "~하는 한 / ~하기만 하면 (조건)",
+                    "answers": ["as long as"],
+                    "sentence": "We can finish this project on time ___ there are no more bugs."
+                },
+                {
+                    "meaning": "~할 짬을 내다 / 미루던 일을 하다",
+                    "answers": ["get around to"],
+                    "sentence": "I haven't ___ answering your email yet."
+                },
+                {
+                    "meaning": "~에 잠깐 들르다",
+                    "answers": ["swing by"],
+                    "sentence": "Can you ___ the grocery store and pick up some milk?"
+                },
+                {
+                    "meaning": "갈팡질팡하다 / 연락 등이 오고 가다",
+                    "answers": ["back and forth"],
+                    "sentence": "I’ve been going ___ with them all day to fix this issue."
+                },
+                {
+                    "meaning": "상황을 봐가면서 하다 / 그때그때 정하다",
+                    "answers": ["play it by ear"],
+                    "sentence": "I’m not sure when I’ll be finished, so let’s ___ and talk later."
+                },
+                {
+                    "meaning": "더 나아가 / 차라리",
+                    "answers": ["better yet"],
+                    "sentence": "We could watch a movie — ___, let’s go out instead."
+                },
+                {
+                    "meaning": "지키다 / 꾸준히 하다",
+                    "answers": ["stick to"],
+                    "sentence": "I’m going to ___ working out."
+                },
+                {
+                    "meaning": "도움이 되다",
+                    "answers": ["come in handy"],
+                    "sentence": "Music really ___ for me."
+                },
+                {
+                    "meaning": "결국 / 따지고 보면 / 마지막엔",
+                    "answers": ["At the end of the day"],
+                    "sentence": "___, being happy is what matters."
+                },
+                {
+                    "meaning": "자주 찾는(것) / 믿고 쓰는(것)",
+                    "answers": ["go-to"],
+                    "sentence": "That’s my ___ way to relax after work."
+                },
+                {
+                    "meaning": "바로 친해지다 / 잘 통하다",
+                    "answers": ["hit it off"],
+                    "sentence": "It’s amazing how quickly they ___."
+                },
+                {
+                    "meaning": "충동적으로",
+                    "answers": ["on a whim"],
+                    "sentence": "I just did it ___."
+                },
+                {
+                    "meaning": "훨씬 (way + 형용사/부사)",
+                    "answers": ["way"],
+                    "sentence": "It was ___ better than I expected."
+                },
+                {
+                    "meaning": "함께하다 / 유지하다",
+                    "answers": ["stick with"],
+                    "sentence": "Yeah, I’m going to ___ it."
+                },
+                {
+                    "meaning": "긴장한 상태의 / 신경이 곤두선",
+                    "answers": ["on edge"],
+                    "sentence": "Yeah, I’ve been ___ all day because of the meeting."
+                },
+                {
+                    "meaning": "우연히 ~을 마주치다",
+                    "answers": ["run into"],
+                    "sentence": "I ___ my old boss today."
+                },
+                {
+                    "meaning": "좋은 판단 / 결정",
+                    "answers": ["good call"],
+                    "sentence": "Yeah, it was a ___ to leave before the traffic got bad."
+                },
+                {
+                    "meaning": "거절하다",
+                    "answers": ["turn down"],
+                    "sentence": "No, I ___ it ___."
+                },
+                {
+                    "meaning": "~하는 걸 정말 못 참겠다 / 너무 싫다",
+                    "answers": ["can't stand"],
+                    "sentence": "No, I ___ getting up early."
+                },
+                {
+                    "meaning": "(의견·이해가) 서로 같다",
+                    "answers": ["on the same page"],
+                    "sentence": "Yeah, I’m ___."
+                },
+                {
+                    "meaning": "~할 마음이 있다",
+                    "answers": ["up for"],
+                    "sentence": "Sure, I’m totally ___ it!"
+                }
+            ]
+        }
+    ]
     
 ]
