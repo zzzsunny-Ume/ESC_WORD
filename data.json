@@ -156,9 +156,14 @@
                 "sentence": "This pizza is a bit too ___."
             },
             {
-                "meaning": "바삭한",
-                "answers": ["Crunchy", "Crispy"],
+                "meaning": "아삭한(견과류,채소,시리얼 등)",
+                "answers": ["Crunchy"],
                 "sentence": "The lettuce is very ___ and fresh."
+            },
+            {
+                "meaning": "바삭한(크래커,감자칩,튀김류 등)",
+                "answers": ["Crispy"],
+                "sentence": "The fried chicken has a perfectly ___ skin."
             },
             {
                 "meaning": "쫄깃쫄깃한",
