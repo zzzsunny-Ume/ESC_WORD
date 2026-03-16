@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>💌Daily Mission💌</title>
+    <style>
+        /* 이모지 크기 약간 축소 (클리핑 방지) */
+        @font-face {
+            font-family: 'EmojiSize';
+            src: local('Apple Color Emoji'), local('Segoe UI Emoji'), local('Noto Color Emoji'), local('Segoe UI Symbol');
+            unicode-range: U+1F000-1FFFF, U+1FA00-1FAFF, U+2600-27FF, U+FE0F;
+            size-adjust: 90%;
+        }
+
+        /* iOS 스타일 폰트 및 배경 설정 */
+        * { -webkit-tap-highlight-color: transparent; }
+        html { -webkit-text-size-adjust: 100%; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", 'EmojiSize', sans-serif;
+            background-color: #F2F2F7;
+            color: #1C1C1E;
+            margin: 0;
+            padding: 20px;
+            padding-left: max(20px, env(safe-area-inset-left));
+            padding-right: max(20px, env(safe-area-inset-right));
+            padding-bottom: max(20px, env(safe-area-inset-bottom));
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        #app {
+            width: 100%;
+            max-width: 560px;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 24px;
+            line-height: 1.5;
+            padding: 4px 0;
+        }
+        
+        .hidden { display: none !important; }
+        
+        /* 공통 위젯 박스 스타일 */
+        .widget-box-base {
+            background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 65%, #F8F8FA 100%);
+            border-radius: 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12), inset 0 -2px 0 rgba(0,0,0,0.01);
+            border: 1px solid rgba(0,0,0,0.03);
+            transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+            box-sizing: border-box;
+        }
+        .widget-box-base:active {
+            transform: scale(0.97); 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            background: #F8F8FA;
+        }
+
+        .widget-card {
+            background: #FFFFFF;
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        /* 메인 리스트 뷰 */
+        .quiz-item {
+            background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 65%, #F8F8FA 100%);
+            border-radius: 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12), inset 0 -2px 0 rgba(0,0,0,0.01);
+            border: 1px solid rgba(0,0,0,0.03);
+            padding: 24px 20px; 
+            margin-bottom: 16px; 
+            cursor: pointer; 
+            display: flex; 
+            flex-direction: column;
+            gap: 8px;
+        }
+        .quiz-item:active { transform: scale(0.96); box-shadow: 0 4px 10px rgba(0,0,0,0.08); background: #F8F8FA; }
+        .quiz-title { font-weight: 700; font-size: 1.2em; color: #1C1C1E; letter-spacing: -0.3px; }
+        .quiz-date { color: #8E8E93; font-size: 0.9em; font-weight: 500; }
+
+        /* 화면 공통 */
+        .question-box { text-align: center; margin: 20px 0; }
+        .meaning { font-size: 1.1em; color: #007AFF; font-weight: 600; margin-bottom: 12px; }
+        .sentence { font-size: 1.6em; font-weight: 700; margin-bottom: 30px; line-height: 1.4; word-break: keep-all; }
+        
+        /* 입력창 */
+        #answer-input { 
+            width: 100%; padding: 18px; font-size: 1.3em; font-weight: 600; text-align: center; 
+            background-color: #F2F2F7; border: 2px solid transparent; border-radius: 18px; 
+            outline: none; box-sizing: border-box; transition: border-color 0.2s, background-color 0.2s, box-shadow 0.2s;
+        }
+        #answer-input:focus { border-color: rgba(0,0,0,0.1); background-color: #FFFFFF; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); }
+        #answer-input:disabled { opacity: 0.6; background-color: #E5E5EA; } 
+        
+        /* 피드백 이모지 */
+        #feedback-emoji {
+            position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);
+            font-size: 6em; z-index: 10; pointer-events: none;
+            animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        }
+        @keyframes popIn {
+            0% { transform: translate(-50%, -50%) scale(0.3); opacity: 0; }
+            50% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
+            100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+        }
+
+        /* 버튼 터치 최적화 */
+        button, input { touch-action: manipulation; }
+
+        /* 공통 위젯 버튼 스타일 */
+        .widget-button {
+            background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 65%, #F8F8FA 100%);
+            border-radius: 20px; box-shadow: 0 6px 16px rgba(0,0,0,0.12), inset 0 -2px 0 rgba(0,0,0,0.01);
+            border: 1px solid rgba(0,0,0,0.03); transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+            box-sizing: border-box; display: flex; justify-content: center; align-items: center;
+            width: 100%; padding: 18px; font-size: 1.1em; font-weight: 600; cursor: pointer; margin-bottom: 12px; color: #1C1C1E; 
+        }
+        .widget-button:active { transform: scale(0.97); box-shadow: 0 3px 8px rgba(0,0,0,0.08); background: #F8F8FA; }
+        .widget-button:disabled { opacity: 0.5; pointer-events: none; box-shadow: none; }
+
+        .btn-primary { color: #007AFF; } 
+        .btn-test { color: #FF9500; } 
+        .btn-study { color: #34C759; } 
+        .btn-pass { color: #FF3B30; margin-top: 24px; } 
+        .btn-secondary { color: #48484A; } 
+        .btn-delete { width: auto; padding: 10px 16px; border-radius: 14px; font-size: 0.9em; color: #FF3B30; margin-bottom: 0; } 
+        .btn-load-more { color: #8E8E93; font-size: 1em; margin-top: 10px; background: #E5E5EA; box-shadow: none; border: none; }
+
+        .btn-group { display: flex; gap: 12px; margin-bottom: 12px; }
+        .btn-group .widget-button { margin-bottom: 0; }
+
+        /* 결과 화면 */
+        .result-box { text-align: center; padding: 40px 20px; }
+        .mission-complete { font-size: 2.2em; font-weight: 800; margin-bottom: 24px; letter-spacing: -0.5px; }
+        .mission-complete.success { color: #34C759; }
+        .mission-complete.fail { color: #FF3B30; }
+        .score-widget { background: #F2F2F7; padding: 20px; border-radius: 18px; margin-bottom: 30px; }
+        .score { font-size: 1.4em; font-weight: 700; margin-bottom: 8px; }
+        .time-taken { font-size: 1.1em; color: #8E8E93; font-weight: 500; }
+        
+        .footer { text-align: center; margin-top: 40px; color: #C7C7CC; font-size: 0.85em; cursor: default; user-select: none; padding: 10px; font-weight: 500; }
+
+        /* 발음 버튼 */
+        .btn-speak {
+            background: #F2F2F7; border: none; border-radius: 14px;
+            padding: 10px 18px; font-size: 0.95em; font-weight: 600;
+            color: #007AFF; cursor: pointer;
+            transition: background 0.15s, transform 0.1s;
+        }
+        .btn-speak:active { background: #E5E5EA; transform: scale(0.95); }
+        .btn-speak.speaking { background: #007AFF; color: #FFFFFF; }
+
+        /* ── 소형 폰 (~ 374px) ── */
+        @media (max-width: 374px) {
+            body { padding: 12px; }
+            #app { padding: 12px 0; }
+            h1 { font-size: 1.35em; }
+            .quiz-item { padding: 18px 14px; }
+            .quiz-title { font-size: 1.05em; }
+            .widget-button { padding: 15px; font-size: 1em; }
+            .widget-card { padding: 18px 16px; }
+            .sentence { font-size: 1.35em; }
+            #s-word { font-size: 2.4em !important; }
+            #answer-input { font-size: 1.15em; padding: 14px; }
+            .mission-complete { font-size: 1.8em; }
+            .btn-speak { padding: 8px 14px; font-size: 0.85em; }
+        }
+
+        /* ── 태블릿 (768px ~) ── */
+        @media (min-width: 768px) {
+            body { padding: 36px 40px; }
+            #app { max-width: 680px; padding: 28px 0; }
+            h1 { font-size: 2.1em; margin-bottom: 28px; }
+            h2 { font-size: 1.15em; }
+            h3 { font-size: 1.3em; }
+            .quiz-item { padding: 28px 24px; border-radius: 28px; margin-bottom: 18px; }
+            .quiz-title { font-size: 1.35em; }
+            .quiz-date { font-size: 1em; }
+            .widget-card { padding: 32px; border-radius: 28px; margin-bottom: 18px; }
+            .widget-button { padding: 20px; font-size: 1.2em; border-radius: 22px; margin-bottom: 14px; }
+            .btn-group { gap: 16px; margin-bottom: 14px; }
+            .meaning { font-size: 1.25em; }
+            .sentence { font-size: 2em; }
+            #s-word { font-size: 3.6em !important; }
+            #answer-input { font-size: 1.5em; padding: 22px; border-radius: 20px; }
+            .result-box { padding: 52px 28px; }
+            .mission-complete { font-size: 2.8em; }
+            .score { font-size: 1.6em; }
+            .time-taken { font-size: 1.25em; }
+            .btn-speak { padding: 13px 24px; font-size: 1.05em; border-radius: 16px; }
+            #feedback-emoji { font-size: 7em; }
+        }
+
+        /* ── 대형 태블릿 / 데스크톱 (1024px ~) ── */
+        @media (min-width: 1024px) {
+            body { padding: 48px 60px; }
+            #app { max-width: 780px; }
+            h1 { font-size: 2.4em; }
+            .quiz-item { padding: 32px 28px; }
+            .widget-button { padding: 22px; font-size: 1.25em; }
+            .sentence { font-size: 2.2em; }
+            #s-word { font-size: 4em !important; }
+            #answer-input { font-size: 1.6em; padding: 24px; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div id="main-screen">
+        <h1>💌Daily Mission💌</h1>
+        <div style="position: relative; margin-bottom: 16px;">
+            <span style="position:absolute; left:16px; top:50%; transform:translateY(-50%); pointer-events:none; line-height:1; font-size:0.85em;">🔍</span>
+            <input type="text" id="search-input" placeholder="퀴즈 제목 검색..." oninput="onSearch()" autocomplete="off"
+                style="width:100%; padding:16px 20px 16px 42px; font-size:1em; font-weight:500; background:#FFFFFF;
+                       border:none; border-radius:20px; box-sizing:border-box; outline:none;
+                       box-shadow:0 4px 12px rgba(0,0,0,0.07);">
+            <button id="btn-search-clear" class="hidden" onclick="clearSearch()"
+                style="position:absolute; right:16px; top:50%; transform:translateY(-50%);
+                       background:none; border:none; font-size:1.1em; cursor:pointer; color:#8E8E93; padding:4px;">✕</button>
+        </div>
+        <div id="quiz-list"><div class="widget-card" style="text-align:center; color:#8E8E93; font-weight:500; padding: 40px 20px;">⏳ 로딩 중...</div></div>
+        <button id="btn-load-more" class="widget-button btn-load-more hidden" onclick="loadMoreQuizzes()">🔽 더보기</button>
+        <div class="footer">© 2026 Quiz App</div>
+    </div>
+
+    <div id="mode-select-screen" class="hidden">
+        <h2 style="color: #8E8E93; font-size: 1.1em; font-weight: 600;">🤔 무엇을 할까요?</h2>
+        <div class="widget-card" style="text-align: center; padding-top: 30px; padding-bottom: 30px;">
+            <h3 id="selected-quiz-title" style="margin-bottom: 30px; font-size: 1.4em;"></h3>
+            <button class="widget-button btn-study" onclick="startStudyMode()">📖 학습 모드</button>
+            <button class="widget-button btn-test" onclick="startTestMode()">📝 테스트 모드</button>
+        </div>
+        <button class="widget-button btn-secondary" onclick="showScreen('main-screen')">🔙 메인으로 돌아가기</button>
+    </div>
+
+    <div id="study-screen" class="hidden">
+        <h2 id="study-header" style="color: #8E8E93; font-size: 1em; font-weight: 600;">📖 학습 진행 중</h2>
+        <div class="widget-card question-box" style="padding: 40px 20px;">
+            <div id="s-meaning" class="meaning" style="color: #8E8E93;"></div>
+            <div id="s-word" style="font-size: 3em; font-weight: 800; color: #1C1C1E; margin: 15px 0 16px 0;"></div>
+            <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 24px;">
+                <button id="btn-speak-word" class="btn-speak" onclick="speakWord()">🔊 단어</button>
+                <button id="btn-speak-sentence" class="btn-speak" onclick="speakSentence()">🔊 예문</button>
+            </div>
+            <div id="s-sentence" class="sentence" style="font-size: 1.4em; color: #48484A;"></div>
+        </div>
+        <div class="btn-group">
+            <button id="btn-study-prev" class="widget-button btn-secondary">⬅️ 이전</button>
+            <button id="btn-study-next" class="widget-button btn-primary">다음 ➡️</button>
+        </div>
+        <button class="widget-button btn-secondary" style="margin-top: 10px;" onclick="showScreen('mode-select-screen')">⏹️ 학습 종료하기</button>
+    </div>
+
+    <div id="quiz-screen" class="hidden">
+        <h2 id="quiz-header" style="color: #8E8E93; font-size: 1em; font-weight: 600;">📝 테스트 진행 중</h2>
+        <div class="widget-card question-box">
+            <div id="feedback-emoji" class="hidden"></div>
+            <div id="q-meaning" class="meaning"></div>
+            <div id="q-sentence" class="sentence"></div>
+            <input type="text" id="answer-input" autocomplete="off" /*placeholder="👉     "*/>
+        </div>
+        <button id="btn-pass" class="widget-button btn-pass">🤷‍♂️ 모르겠음 (Pass)</button>
+    </div>
+
+    <div id="result-screen" class="hidden">
+        <div class="widget-card result-box">
+            <div id="result-title" class="mission-complete"></div>
+            <div class="score-widget">
+                <div id="final-score" class="score"></div>
+                <div id="completed-time" class="time-taken"></div>
+            </div>
+            <button class="widget-button btn-primary" onclick="showScreen('main-screen')">🏠 홈으로 돌아가기</button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    let quizzes = [];
+    let currentQuizIndex = -1;
+    let currentQuiz = null;
+    let currentQIndex = 0;
+    let correctCount = 0;
+    let isProcessing = false;
+
+    // --- 최적화: 렌더링 제한 ---
+    let displayLimit = 20;
+    let searchQuery = '';
+
+    function showScreen(screenId) {
+        document.querySelectorAll('#app > div').forEach(div => div.classList.add('hidden'));
+        document.getElementById(screenId).classList.remove('hidden');
+
+        if (screenId === 'main-screen') {
+            displayLimit = 20;
+            renderQuizList();
+        }
+    }
+
+    function onSearch() {
+        searchQuery = document.getElementById('search-input').value.trim().toLowerCase();
+        document.getElementById('btn-search-clear').classList.toggle('hidden', searchQuery === '');
+        displayLimit = 20;
+        renderQuizList();
+    }
+
+    function clearSearch() {
+        document.getElementById('search-input').value = '';
+        searchQuery = '';
+        document.getElementById('btn-search-clear').classList.add('hidden');
+        displayLimit = 20;
+        renderQuizList();
+    }
+
+    function highlight(text, query) {
+        if (!query) return text;
+        const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        return text.replace(new RegExp(`(${escaped})`, 'gi'), '<mark style="background:#FFD60A; border-radius:4px; padding:0 2px;">$1</mark>');
+    }
+
+    function renderQuizList() {
+        const listDiv = document.getElementById('quiz-list');
+        listDiv.innerHTML = '';
+
+        if (quizzes.length === 0) {
+            listDiv.innerHTML = '<div class="widget-card" style="text-align:center; color:#8E8E93; font-weight:500;">📭 등록된 퀴즈가 없습니다.</div>';
+            document.getElementById('btn-load-more').classList.add('hidden');
+            return;
+        }
+
+        // 최신순 정렬 후 검색 필터
+        const reversed = [...quizzes].map((quiz, i) => ({ quiz, originalIndex: i })).reverse();
+        const filtered = searchQuery
+            ? reversed.filter(({ quiz }) => quiz.title.toLowerCase().includes(searchQuery))
+            : reversed;
+
+        if (filtered.length === 0) {
+            listDiv.innerHTML = '<div class="widget-card" style="text-align:center; color:#8E8E93; font-weight:500;">🔍 검색 결과가 없습니다.</div>';
+            document.getElementById('btn-load-more').classList.add('hidden');
+            return;
+        }
+
+        const itemsToShow = filtered.slice(0, displayLimit);
+
+        itemsToShow.forEach(({ quiz, originalIndex: index }) => {
+            const item = document.createElement('div');
+            item.className = 'quiz-item';
+            item.innerHTML = `
+                <span class="quiz-title">${highlight(quiz.title, searchQuery)}</span>
+                <span class="quiz-date">📅 ${quiz.date}</span>
+            `;
+            item.onclick = () => openModeSelect(index);
+            listDiv.appendChild(item);
+        });
+
+        // 더보기 버튼 표시 여부
+        const reversed2 = [...quizzes].map((quiz, i) => ({ quiz, originalIndex: i })).reverse();
+        const totalFiltered = searchQuery
+            ? reversed2.filter(({ quiz }) => quiz.title.toLowerCase().includes(searchQuery)).length
+            : quizzes.length;
+
+        if (totalFiltered > displayLimit) {
+            document.getElementById('btn-load-more').classList.remove('hidden');
+        } else {
+            document.getElementById('btn-load-more').classList.add('hidden');
+        }
+    }
+
+    function loadMoreQuizzes() {
+        displayLimit += 20;
+        renderQuizList();
+    }
+
+    function openModeSelect(index) {
+        currentQuizIndex = index;
+        currentQuiz = quizzes[index];
+        document.getElementById('selected-quiz-title').innerText = `"${currentQuiz.title}"`;
+        showScreen('mode-select-screen');
+    }
+
+    // --- 학습 모드 로직 ---
+    function startStudyMode() {
+        currentQIndex = 0;
+        showScreen('study-screen');
+        loadStudyCard();
+    }
+
+    function loadStudyCard() {
+        const q = currentQuiz.questions[currentQIndex];
+        document.getElementById('study-header').innerText = `📖 ${currentQuiz.title} (${currentQIndex + 1} / ${currentQuiz.questions.length})`;
+        document.getElementById('s-meaning').innerText = `💡 뜻: ${q.meaning}`;
+
+        const allAnswers = q.answers.join(' / ');
+        document.getElementById('s-word').innerText = allAnswers;
+
+        // 문장 안에는 첫 번째 정답을 대표로 표시
+        const filledSentence = q.sentence.replace(/___/g, `<span style="color: #007AFF; text-decoration: underline;">${q.answers[0]}</span>`);
+        document.getElementById('s-sentence').innerHTML = filledSentence;
+
+        const btnPrev = document.getElementById('btn-study-prev');
+        const btnNext = document.getElementById('btn-study-next');
+        
+        btnPrev.disabled = (currentQIndex === 0);
+        
+        if (currentQIndex === currentQuiz.questions.length - 1) {
+            btnNext.innerHTML = '✅ 학습 완료';
+            btnNext.style.color = '#34C759'; 
+        } else {
+            btnNext.innerHTML = '다음 ➡️';
+            btnNext.style.color = '#1C1C1E'; 
+        }
+    }
+
+    // --- 발음 듣기 ---
+    function speak(text, btnId) {
+        if (!window.speechSynthesis) return;
+        window.speechSynthesis.cancel();
+
+        const btn = document.getElementById(btnId);
+        const utt = new SpeechSynthesisUtterance(text);
+        utt.lang = 'en-US';
+        utt.rate = 0.9;
+
+        // 영어 음성 우선 선택
+        const voices = window.speechSynthesis.getVoices();
+        const engVoice = voices.find(v => v.lang.startsWith('en') && v.localService) || voices.find(v => v.lang.startsWith('en'));
+        if (engVoice) utt.voice = engVoice;
+
+        utt.onstart = () => btn && btn.classList.add('speaking');
+        utt.onend = () => btn && btn.classList.remove('speaking');
+        utt.onerror = () => btn && btn.classList.remove('speaking');
+
+        window.speechSynthesis.speak(utt);
+    }
+
+    function speakWord() {
+        const word = document.getElementById('s-word').innerText;
+        speak(word, 'btn-speak-word');
+    }
+
+    function speakSentence() {
+        const q = currentQuiz.questions[currentQIndex];
+        const text = q.sentence.replace(/___/g, q.answers[0]);
+        speak(text, 'btn-speak-sentence');
+    }
+
+    document.getElementById('btn-study-prev').addEventListener('click', () => {
+        if (currentQIndex > 0) { currentQIndex--; loadStudyCard(); }
+    });
+
+    document.getElementById('btn-study-next').addEventListener('click', () => {
+        if (currentQIndex < currentQuiz.questions.length - 1) {
+            currentQIndex++; loadStudyCard();
+        } else {
+            alert('🎉 모든 단어 학습을 완료했습니다! 이제 테스트에 도전해보세요.');
+            showScreen('mode-select-screen');
+        }
+    });
+
+    // --- 테스트 모드 로직 ---
+    function startTestMode() {
+        currentQIndex = 0; correctCount = 0; isProcessing = false;
+        showScreen('quiz-screen');
+        loadQuestion();
+    }
+
+    function loadQuestion() {
+        if (currentQIndex >= currentQuiz.questions.length) { endQuiz(); return; }
+        const q = currentQuiz.questions[currentQIndex];
+        document.getElementById('quiz-header').innerText = `📝 ${currentQuiz.title} (${currentQIndex + 1} / ${currentQuiz.questions.length})`;
+        document.getElementById('q-meaning').innerText = `💡 ${q.meaning}`;
+        document.getElementById('q-sentence').innerText = q.sentence;
+        
+        const inputEl = document.getElementById('answer-input');
+        inputEl.value = ''; inputEl.disabled = false;
+        setTimeout(() => inputEl.focus(), 10);
+    }
+
+    function handleAnswerFeedback(isCorrect) {
+        if (isProcessing) return;
+        isProcessing = true;
+        const inputEl = document.getElementById('answer-input');
+        const feedbackEl = document.getElementById('feedback-emoji');
+        inputEl.disabled = true; 
+        
+        if (isCorrect) { feedbackEl.innerText = '✅'; correctCount++; } 
+        else { feedbackEl.innerText = '❌'; }
+        
+        feedbackEl.classList.remove('hidden');
+        setTimeout(() => {
+            feedbackEl.classList.add('hidden');
+            currentQIndex++; isProcessing = false; loadQuestion();
+        }, 500);
+    }
+
+    document.getElementById('answer-input').addEventListener('input', function(e) {
+        if (isProcessing) return;
+        const userAnswer = e.target.value.trim().toLowerCase();
+        
+        // 수정: .some()을 사용하여 배열 중 하나라도 일치하는지 확인
+        const correctAnswers = currentQuiz.questions[currentQIndex].answers.map(a => a.trim().toLowerCase());
+        if (correctAnswers.includes(userAnswer)) {
+            handleAnswerFeedback(true);
+        }
+    });
+
+    document.getElementById('btn-pass').addEventListener('click', () => { handleAnswerFeedback(false); });
+
+    function endQuiz() {
+        showScreen('result-screen');
+        const total = currentQuiz.questions.length;
+        const passed = (correctCount / total) >= 0.6;
+
+        const titleEl = document.getElementById('result-title');
+        titleEl.className = `mission-complete ${passed ? 'success' : 'fail'}`;
+        titleEl.innerText = passed ? '🎉 미션 컴플리트! 🏆' : '😢 미션 실패...';
+
+        document.getElementById('final-score').innerText = `🎯 총 ${total}문제 중 ${correctCount}개 정답`;
+
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        document.getElementById('completed-time').innerText = `📅 완성 시각: ${hours}:${minutes}:${seconds}`;
+    }
+
+    // 초기 실행: data.json 비동기 로드
+    async function init() {
+        try {
+            const res = await fetch('data.json');
+            if (!res.ok) throw new Error('fetch 실패');
+            quizzes = await res.json();
+        } catch (e) {
+            console.error('데이터 로드 실패:', e);
+            quizzes = [];
+        }
+        renderQuizList();
+    }
+    init();
+</script>
+</body>
+</html>

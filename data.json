@@ -1,0 +1,236 @@
+[
+    {
+        "title": "성격 심화🤓",
+        "date": "2026-03-03",
+        "questions": [
+            {
+                "meaning": "세심한 / 꼼꼼한",
+                "answers": ["Meticulous"],
+                "sentence": "He is ___ about keeping his records."
+            },
+            {
+                "meaning": "사교적인 / 남들과 어울리기 좋아하는",
+                "answers": ["Gregarious"],
+                "sentence": "She is such a ___ and outgoing person."
+            },
+            {
+                "meaning": "독단적인 / 자기주장이 강한",
+                "answers": ["Assertive"],
+                "sentence": "You need to be more ___ to get what you want."
+            },
+            {
+                "meaning": "냉소적인 / 비꼬는",
+                "answers": ["Cynical"],
+                "sentence": "Don't be so ___ about everything."
+            },
+            {
+                "meaning": "변덕스러운",
+                "answers": ["Capricious"],
+                "sentence": "The weather here is as ___ as a child."
+            },
+            {
+                "meaning": "수완이 좋은 / 영리한",
+                "answers": ["Resourceful"],
+                "sentence": "He is a ___ leader who finds a way."
+            },
+            {
+                "meaning": "재치 있는 / 눈치 있는",
+                "answers": ["Tactful"],
+                "sentence": "That was a very ___ way of putting it."
+            },
+            {
+                "meaning": "공감 능력이 뛰어난",
+                "answers": ["Empathetic"],
+                "sentence": "An ___ listener makes a great friend."
+            },
+            {
+                "meaning": "회복탄력성이 좋은 / 오뚝이 같은",
+                "answers": ["Resilient"],
+                "sentence": "She is ___ enough to overcome any failure."
+            },
+            {
+                "meaning": "다재다능한",
+                "answers": ["Versatile"],
+                "sentence": "He is a ___ actor who can play any role."
+            },
+            {
+                "meaning": "통찰력 있는 / 눈치 빠른",
+                "answers": ["Perceptive"],
+                "sentence": "It was very ___ of you to notice that."
+            },
+            {
+                "meaning": "거리를 두는 / 냉담한",
+                "answers": ["Standoffish"],
+                "sentence": "He seems a bit ___ until you know him."
+            },
+            {
+                "meaning": "별난 / 괴짜 같은",
+                "answers": ["Eccentric"],
+                "sentence": "My neighbor is an ___ old man."
+            },
+            {
+                "meaning": "신중한",
+                "answers": ["Prudent"],
+                "sentence": "It's a ___ decision to save some money."
+            },
+            {
+                "meaning": "집요한 / 끈기 있는",
+                "answers": ["Tenacious"],
+                "sentence": "His ___ effort finally paid off."
+            },
+            {
+                "meaning": "태연한 / 감정을 잘 드러내지 않는",
+                "answers": ["Stoic"],
+                "sentence": "He remained ___ even in the face of danger."
+            },
+            {
+                "meaning": "상냥한 / 붙임성 있는",
+                "answers": ["Amiable"],
+                "sentence": "She has an ___ personality that everyone likes."
+            },
+            {
+                "meaning": "위트 있는 / 기지 넘치는",
+                "answers": ["Witty"],
+                "sentence": "He is famous for his ___ remarks."
+            },
+            {
+                "meaning": "위선적인",
+                "answers": ["Hypocritical"],
+                "sentence": "It’s ___ to judge others for what you do."
+            },
+            {
+                "meaning": "방어적인",
+                "answers": ["Defensive"],
+                "sentence": "Stop being so ___; it's just a suggestion."
+            },
+            {
+                "meaning": "방심하지 않는 / 기민한",
+                "answers": ["Vigilant"],
+                "sentence": "We must remain ___ against any threats."
+            },
+            {
+                "meaning": "우유부단한",
+                "answers": ["Indecisive"],
+                "sentence": "I'm too ___ to pick a restaurant."
+            },
+            {
+                "meaning": "거만한 / 젠체하는",
+                "answers": ["Pretentious"],
+                "sentence": "I found the movie a bit too ___."
+            },
+            {
+                "meaning": "자기도취적인",
+                "answers": ["Narcissistic"],
+                "sentence": "He is too ___ to care about others."
+            },
+            {
+                "meaning": "붙임성 없는 / 무뚝뚝한",
+                "answers": ["Aloof"],
+                "sentence": "She stayed ___ from the rest of the group."
+            }
+        ]
+    },
+
+    {
+        "title": "맛의 표현😋",
+        "date": "2026-03-16",
+        "questions": [
+            {
+                "meaning": "고소한",
+                "answers": ["Nutty"],
+                "sentence": "It has a deep, ___ flavor."
+            },
+            {
+                "meaning": "담백한",
+                "answers": ["Clean", "light"],
+                "sentence": "I prefer a ___ taste."
+            },
+            {
+                "meaning": "감칠맛 나는",
+                "answers": ["Savory"],
+                "sentence": "The broth is full of ___."
+            },
+            {
+                "meaning": "느끼한",
+                "answers": ["Greasy", "Oily"],
+                "sentence": "This pizza is a bit too ___."
+            },
+            {
+                "meaning": "바삭한",
+                "answers": ["Crunchy", "Crispy"],
+                "sentence": "The lettuce is very ___ and fresh."
+            },
+            {
+                "meaning": "쫄깃쫄깃한",
+                "answers": ["Chewy"],
+                "sentence": "I like the ___ texture of these noodles."
+            },
+            {
+                "meaning": "부드러운 (고기 등)",
+                "answers": ["Tender"],
+                "sentence": "The steak is incredibly ___."
+            },
+            {
+                "meaning": "싱거운",
+                "answers": ["Bland"],
+                "sentence": "It's a little ___; it needs more salt."
+            },
+            {
+                "meaning": "비린",
+                "answers": ["Fishy"],
+                "sentence": "Does this sushi taste ___ to you?"
+            },
+            {
+                "meaning": "새콤하고 톡 쏘는",
+                "answers": ["Tangy"],
+                "sentence": "The salad dressing is ___ and refreshing."
+            },
+            {
+                "meaning": "자극적인 향긋함",
+                "answers": ["zesty"],
+                "sentence": "This salsa has a ___ lime flavor."
+            },
+            {
+                "meaning": "육즙이 풍부한",
+                "answers": ["Juicy"],
+                "sentence": "This burger is so ___!"
+            },
+            {
+                "meaning": "눅눅한",
+                "answers": ["Soggy"],
+                "sentence": "My fries got all ___."
+            },
+            {
+                "meaning": "떫은",
+                "answers": ["Astringent", "Bitter"],
+                "sentence": "This green tea is a bit ___."
+            },
+            {
+                "meaning": "입맛을 돋우는",
+                "answers": ["Appetizing"],
+                "sentence": "The smell of the bread is very ___."
+            },
+            {
+                "meaning": "탄 맛이 나는",
+                "answers": ["Burnt"],
+                "sentence": "This toast tastes a little ___."
+            },
+            {
+                "meaning": "훈제 향이 나는",
+                "answers": ["Smoky"],
+                "sentence": "I love the ___ aroma of this BBQ."
+            },
+            {
+                "meaning": "걸쭉한",
+                "answers": ["Thick"],
+                "sentence": "The gravy is nice and ___."
+            },
+            {
+                "meaning": "풍미가 깊은",
+                "answers": ["Flavorful"],
+                "sentence": "This curry is extremely ___."
+            }
+        ]
+    }   
+    
+]
