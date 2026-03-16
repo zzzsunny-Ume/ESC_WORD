@@ -522,14 +522,29 @@
         const feedbackEl = document.getElementById('feedback-emoji');
         inputEl.disabled = true; 
         
-        if (isCorrect) { feedbackEl.innerText = '✅'; correctCount++; } 
-        else { feedbackEl.innerText = '❌'; }
-        
-        feedbackEl.classList.remove('hidden');
-        setTimeout(() => {
-            feedbackEl.classList.add('hidden');
-            currentQIndex++; isProcessing = false; loadQuestion();
-        }, 500);
+        if (isCorrect) {
+            feedbackEl.innerText = '✅';
+            correctCount++;
+            feedbackEl.classList.remove('hidden');
+            setTimeout(() => {
+                feedbackEl.classList.add('hidden');
+                currentQIndex++; isProcessing = false; loadQuestion();
+            }, 500);
+        } else {
+            feedbackEl.innerText = '❌';
+            feedbackEl.classList.remove('hidden');
+            // 정답 표시
+            const answer = currentQuiz.questions[currentQIndex].answers[0];
+            inputEl.value = answer;
+            inputEl.style.color = '#FF3B30';
+            inputEl.style.fontStyle = 'italic';
+            setTimeout(() => {
+                feedbackEl.classList.add('hidden');
+                inputEl.style.color = '';
+                inputEl.style.fontStyle = '';
+                currentQIndex++; isProcessing = false; loadQuestion();
+            }, 1800);
+        }
     }
 
     document.getElementById('answer-input').addEventListener('input', function(e) {
