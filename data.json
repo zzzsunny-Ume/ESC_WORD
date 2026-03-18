@@ -269,7 +269,7 @@
                 },
                 {
                     "meaning": "도움이 되다",
-                    "answers": ["come in handy"],
+                    "answers": ["came in handy", "come in handy"],
                     "sentence": "Music really ___ for me."
                 },
                 {
@@ -279,7 +279,7 @@
                 },
                 {
                     "meaning": "자주 찾는(것) / 믿고 쓰는(것)",
-                    "answers": ["go-to"],
+                    "answers": ["go-to", "goto"],
                     "sentence": "That’s my ___ way to relax after work."
                 },
                 {
@@ -293,7 +293,7 @@
                     "sentence": "I just did it ___."
                 },
                 {
-                    "meaning": "훨씬 (way + 형용사/부사)",
+                    "meaning": "훨씬",
                     "answers": ["way"],
                     "sentence": "It was ___ better than I expected."
                 },
@@ -309,7 +309,7 @@
                 },
                 {
                     "meaning": "우연히 ~을 마주치다",
-                    "answers": ["run into"],
+                    "answers": ["run into", "ran into"],
                     "sentence": "I ___ my old boss today."
                 },
                 {
