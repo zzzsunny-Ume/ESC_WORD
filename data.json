@@ -238,9 +238,8 @@
         ]
     },
     
-    [
-        {
-            "title": "Today's Expression 복습💌",
+    {
+        "title": "Today's Expression 복습💌",
             "date": "2026-03-18",
             "questions": [
                 {
@@ -339,7 +338,6 @@
                     "sentence": "Sure, I’m totally ___ it!"
                 }
             ]
-        }
-    ]
-    
+    }
+
 ]
