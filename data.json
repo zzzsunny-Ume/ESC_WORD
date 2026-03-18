@@ -319,8 +319,8 @@
                 },
                 {
                     "meaning": "거절하다",
-                    "answers": ["turn down"],
-                    "sentence": "No, I ___ it ___."
+                    "answers": ["turned down"],
+                    "sentence": "No, I ___ the offer."
                 },
                 {
                     "meaning": "~하는 걸 정말 못 참겠다 / 너무 싫다",
