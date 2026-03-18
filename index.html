@@ -146,6 +146,7 @@
 
         /* 결과 화면 */
         .result-box { text-align: center; padding: 40px 20px; }
+        .result-quiz-title { font-size: 1.1em; font-weight: 700; color: #8E8E93; letter-spacing: -0.3px; margin-bottom: 10px; }
         .mission-complete { font-size: 2.2em; font-weight: 800; margin-bottom: 24px; letter-spacing: -0.5px; }
         .mission-complete.success { color: #34C759; }
         .mission-complete.fail { color: #FF3B30; }
@@ -280,6 +281,7 @@
 
     <div id="result-screen" class="hidden">
         <div class="widget-card result-box">
+            <div id="result-quiz-title" class="result-quiz-title"></div>
             <div id="result-title" class="mission-complete"></div>
             <div class="score-widget">
                 <div id="final-score" class="score"></div>
@@ -564,6 +566,8 @@
         showScreen('result-screen');
         const total = currentQuiz.questions.length;
         const passed = (correctCount / total) >= 0.6;
+
+        document.getElementById('result-quiz-title').innerText = currentQuiz.title;
 
         const titleEl = document.getElementById('result-title');
         titleEl.className = `mission-complete ${passed ? 'success' : 'fail'}`;

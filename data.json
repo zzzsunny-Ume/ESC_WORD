@@ -244,56 +244,6 @@
             "date": "2026-03-18",
             "questions": [
                 {
-                    "meaning": "혹시",
-                    "answers": ["by any chance"],
-                    "sentence": "Do you have a spare umbrella I could borrow, ___?"
-                },
-                {
-                    "meaning": "(두 가지 사이에서) 고민 중인",
-                    "answers": ["torn between"],
-                    "sentence": "She was ___ staying home or going to the party."
-                },
-                {
-                    "meaning": "천만다행이다 / 운 좋게 위기를 피하다",
-                    "answers": ["dodged a bullet"],
-                    "sentence": "The meeting was canceled right as I realized I was late. I totally ___!"
-                },
-                {
-                    "meaning": "아직 결정되지 않은 / 불확실한",
-                    "answers": ["up in the air"],
-                    "sentence": "Everything is ___ right now, so we should wait and see."
-                },
-                {
-                    "meaning": "~에 익숙해지다 / 요령을 터득하다 / 감을 잡다",
-                    "answers": ["get the hang of"],
-                    "sentence": "It’s a bit tricky at first, but you’ll ___ it soon."
-                },
-                {
-                    "meaning": "어쨌든 / 어느 쪽이든 마찬가지로",
-                    "answers": ["Either way"],
-                    "sentence": "I don't know if he's busy or just forgot, but ___, he should have called."
-                },
-                {
-                    "meaning": "미리 알려주다 / 귀띔해주다",
-                    "answers": ["give a heads up"],
-                    "sentence": "I just wanted to ___ you ___ that I might be a little late tonight."
-                },
-                {
-                    "meaning": "~로 정하다(선택하다) / ~와 어울리다",
-                    "answers": ["go with"],
-                    "sentence": "I think I’ll ___ the cheeseburger for lunch."
-                },
-                {
-                    "meaning": "~하는 한 / ~하기만 하면 (조건)",
-                    "answers": ["as long as"],
-                    "sentence": "We can finish this project on time ___ there are no more bugs."
-                },
-                {
-                    "meaning": "~할 짬을 내다 / 미루던 일을 하다",
-                    "answers": ["get around to"],
-                    "sentence": "I haven't ___ answering your email yet."
-                },
-                {
                     "meaning": "~에 잠깐 들르다",
                     "answers": ["swing by"],
                     "sentence": "Can you ___ the grocery store and pick up some milk?"
