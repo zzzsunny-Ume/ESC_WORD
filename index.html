@@ -413,7 +413,7 @@
         document.getElementById('s-word').innerText = allAnswers;
 
         // 문장 안에는 첫 번째 정답을 대표로 표시
-        const filledSentence = q.sentence.replace(/___/g, `<span style="color: #007AFF; text-decoration: underline;">${q.answers[0]}</span>`);
+        const filledSentence = q.sentence.replace(/___/g, `<span style="color: #007AFF; text-decoration: underline;">${q.answers[-1]}</span>`);
         document.getElementById('s-sentence').innerHTML = filledSentence;
 
         const btnPrev = document.getElementById('btn-study-prev');
@@ -481,7 +481,7 @@
 
     function speakSentence() {
         const q = currentQuiz.questions[currentQIndex];
-        const text = q.sentence.replace(/___/g, q.answers[0]);
+        const text = q.sentence.replace(/___/g, q.answers[-1]);
         speak(text, 'btn-speak-sentence');
     }
 
