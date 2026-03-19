@@ -409,7 +409,7 @@
         document.getElementById('study-header').innerText = `📖 ${currentQuiz.title} (${currentQIndex + 1} / ${currentQuiz.questions.length})`;
         document.getElementById('s-meaning').innerText = `💡 뜻: ${q.meaning}`;
 
-        const allAnswers = q.answers.join(' / ');
+        const allAnswers = q.answers[0];
         document.getElementById('s-word').innerText = allAnswers;
 
         // 문장 안에는 첫 번째 정답을 대표로 표시
@@ -536,7 +536,7 @@
             feedbackEl.innerText = '❌';
             feedbackEl.classList.remove('hidden');
             // 정답 표시
-            const answer = currentQuiz.questions[currentQIndex].answers[0];
+            const answer = currentQuiz.questions[currentQIndex].answers[-1];
             inputEl.value = answer;
             inputEl.style.color = '#FF3B30';
             inputEl.style.fontStyle = 'italic';
