@@ -279,7 +279,7 @@
                 },
                 {
                     "meaning": "자주 찾는(것) / 믿고 쓰는(것)",
-                    "answers": ["go-to", "goto"],
+                    "answers": ["go-to"],
                     "sentence": "That’s my ___ way to relax after work."
                 },
                 {
