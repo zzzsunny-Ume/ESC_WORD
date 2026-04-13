@@ -988,17 +988,17 @@
                 },
                 {
                     "meaning": "뒤통수를 치다 / 배신하다",
-                    "answers": ["stab in the back", "stabbed me in the back"],
+                    "answers": ["stab someone in the back", "stab in the back", "stabbed me in the back"],
                     "sentence": "I trusted him completely, but he ___."
                 },
                 {
                     "meaning": "앞뒤가 다른 / 표리부동한",
-                    "answers": ["two-faced"],
+                    "answers": ["two-faced", "two faced"],
                     "sentence": "She is so ___; she acts nice to you but gossips about everyone."
                 },
                 {
                     "meaning": "남에게 책임을 덮어씌우다 / 희생양으로 삼다",
-                    "answers": ["throw under the bus", "threw me under the bus"],
+                    "answers": ["throw someone under the bus","throw under the bus", "threw me under the bus"],
                     "sentence": "To save his own job, he completely ___."
                 },
                 {
@@ -1018,7 +1018,7 @@
                 },
                 {
                     "meaning": "심기를 건드리다 / 괜히 거슬리다",
-                    "answers": ["rub the wrong way", "rubs me the wrong way"],
+                    "answers": ["rub someone the wrong way", "rub the wrong way", "rubs me the wrong way"],
                     "sentence": "I don't know exactly why, but his attitude really ___."
                 },
                 {
@@ -1053,7 +1053,7 @@
                 },
                 {
                     "meaning": "모든 걸 다 아는 체하는 (사람) / 꼰대 같은",
-                    "answers": ["know-it-all"],
+                    "answers": ["know-it-all", "know it all"],
                     "sentence": "It's so hard to work with a ___ who never listens to others' opinions."
                 },
                 {
