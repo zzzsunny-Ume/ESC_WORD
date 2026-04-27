@@ -1421,7 +1421,7 @@
                 },
                 {
                     "meaning": "대용량의 / 강력한 (세탁기 등)",
-                    "answers": ["heavy-duty"],
+                    "answers": ["heavy-duty", "heavy duty"],
                     "sentence": "You should use the ___ washer for these thick blankets."
                 },
                 {
@@ -1431,12 +1431,12 @@
                 },
                 {
                     "meaning": "자리를 비우다 / (물건을) 방치하다",
-                    "answers": ["leave unattended", "left unattended"],
-                    "sentence": "Do not leave your laundry ___ while the machines are running."
+                    "answers": ["(leave) unattended", "unattended"],
+                    "sentence": "I shouldn't have left my laundry ___ while the machines are running."
                 },
                 {
                     "meaning": "드럼 세탁기 (앞으로 세탁물을 넣는 방식)",
-                    "answers": ["front-loader"],
+                    "answers": ["front-loader", "front loader"],
                     "sentence": "I prefer using a ___ because it is gentler on my clothes."
                 },
                 {
