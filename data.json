@@ -1704,6 +1704,171 @@
                 "sentence": "The umpire called a ___ because the serve was too high."
             }
         ]
+    },
+
+
+    {
+        "title": "Tourist Attraction Expressions 🗺️",
+        "date": "2026-05-08",
+        "questions": [
+            {
+                "meaning": "관광, 명소 구경",
+                "answers": ["sightseeing"],
+                "sentence": "We didn't have much time for ___ because of the business meetings."
+            },
+            {
+                "meaning": "관광객에게 바가지를 씌우는 곳 / 덤터기",
+                "answers": ["tourist trap"],
+                "sentence": "Don't eat at that restaurant right next to the museum; it's a total ___."
+            },
+            {
+                "meaning": "사람들의 발길이 잘 닿지 않는 곳 / 외진 곳",
+                "answers": ["off the beaten path", "off the beaten track"],
+                "sentence": "I prefer traveling to places that are a bit ___ to avoid the crowds."
+            },
+            {
+                "meaning": "주요 명소 / 랜드마크",
+                "answers": ["landmark", "landmarks"],
+                "sentence": "The Eiffel Tower is arguably the most famous ___ in Paris."
+            },
+            {
+                "meaning": "여행 일정(표)",
+                "answers": ["itinerary"],
+                "sentence": "Let's check our ___ to see what time the guided tour starts tomorrow."
+            },
+            {
+                "meaning": "기념품",
+                "answers": ["souvenir", "souvenirs"],
+                "sentence": "I bought this traditional wooden craft as a ___ from my trip to Kyoto."
+            },
+            {
+                "meaning": "성수기",
+                "answers": ["peak season", "high season"],
+                "sentence": "Hotel prices usually double during the ___ in the summer."
+            },
+            {
+                "meaning": "잘 알려지지 않은 멋진 곳 / 숨겨진 명소",
+                "answers": ["hidden gem"],
+                "sentence": "This quiet, beautiful beach is a true ___ known only to the locals."
+            },
+            {
+                "meaning": "가이드가 동행하는 투어",
+                "answers": ["guided tour"],
+                "sentence": "We booked a ___ of the ancient ruins to learn more about the history."
+            },
+            {
+                "meaning": "경치가 좋은 / 그림 같이 아름다운",
+                "answers": ["picturesque", "scenic"],
+                "sentence": "We decided to take the ___ route along the coast instead of the highway."
+            },
+            {
+                "meaning": "꼭 봐야 할 곳 / 필수 코스",
+                "answers": ["must-see"],
+                "sentence": "The Grand Canyon is absolutely a ___ if you are visiting Arizona."
+            },
+            {
+                "meaning": "당일치기 여행",
+                "answers": ["day trip"],
+                "sentence": "We took a ___ to the neighboring island and came back by dinner."
+            },
+            {
+                "meaning": "(여행을 위해) 가볍게 짐을 싸다",
+                "answers": ["pack light"],
+                "sentence": "Since we are moving around a lot, it's very important to ___."
+            },
+            {
+                "meaning": "눈요기하다 / 경치를 감상하다",
+                "answers": ["take in the view", "take in the scenery"],
+                "sentence": "We sat on the bench for a while just to ___."
+            },
+            {
+                "meaning": "(휴가용) 숙소 / 머물 곳",
+                "answers": ["accommodation", "accommodations"],
+                "sentence": "It's hard to find cheap ___ during the holiday weekend."
+            }
+        ]
+    },
+
+    {
+        "title": "Hiking Vocabulary ⛰️",
+        "date": "2026-05-11",
+        "questions": [
+            {
+                "meaning": "등산로 / 산길",
+                "answers": ["trail"],
+                "sentence": "We should stay on the marked ___ so we don't get lost."
+            },
+            {
+                "meaning": "정상 / 꼭대기",
+                "answers": ["summit", "peak"],
+                "sentence": "It took us about three hours to reach the ___."
+            },
+            {
+                "meaning": "가파른",
+                "answers": ["steep"],
+                "sentence": "The last part of the climb was very ___, so I had to use my hands."
+            },
+            {
+                "meaning": "오르막(길)",
+                "answers": ["uphill"],
+                "sentence": "Walking ___ is really good exercise for your leg muscles."
+            },
+            {
+                "meaning": "내리막(길)",
+                "answers": ["downhill"],
+                "sentence": "Be careful not to slip when you are going ___."
+            },
+            {
+                "meaning": "장비 / 등산 용품",
+                "answers": ["gear"],
+                "sentence": "You don't need expensive ___ for a simple and short hike."
+            },
+            {
+                "meaning": "물집",
+                "answers": ["blister", "blisters"],
+                "sentence": "These new boots gave me a painful ___ on my heel."
+            },
+            {
+                "meaning": "(근육의) 경련 / 쥐",
+                "answers": ["cramp", "cramps"],
+                "sentence": "I got a bad ___ in my calf because I didn't stretch."
+            },
+            {
+                "meaning": "풍경 / 경치",
+                "answers": ["scenery", "view"],
+                "sentence": "The ___ from the top of the mountain was absolutely stunning."
+            },
+            {
+                "meaning": "오르다 / 올라가다",
+                "answers": ["ascend", "climb"],
+                "sentence": "As we continue to ___, the air gets a bit colder."
+            },
+            {
+                "meaning": "내려가다 / 하산하다",
+                "answers": ["descend"],
+                "sentence": "It's getting dark, so we should start to ___ now."
+            },
+            {
+                "meaning": "헐떡이다 / 숨차다",
+                "answers": ["pant", "panting"],
+                "sentence": "The steep stairs left me heavily ___."
+            },
+            {
+                "meaning": "고도 / 해발고도",
+                "answers": ["altitude", "elevation"],
+                "sentence": "Some people feel dizzy when they reach a high ___."
+            },
+            {
+                "meaning": "속도 / 페이스",
+                "answers": ["pace"],
+                "sentence": "It is important to keep a steady ___ when climbing."
+            },
+            {
+                "meaning": "휴식하다 / 쉬다",
+                "answers": ["rest", "rested"],
+                "sentence": "We ___ for a few minutes before tackling the final climb."
+            }
+        ]
     }
 
 
