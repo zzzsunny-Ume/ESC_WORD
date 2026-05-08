@@ -1723,7 +1723,7 @@
             },
             {
                 "meaning": "사람들의 발길이 잘 닿지 않는 곳 / 외진 곳",
-                "answers": ["off the beaten path", "off the beaten track"],
+                "answers": ["off the beaten path"],
                 "sentence": "I prefer traveling to places that are a bit ___ to avoid the crowds."
             },
             {
@@ -1743,7 +1743,7 @@
             },
             {
                 "meaning": "성수기",
-                "answers": ["peak season", "high season"],
+                "answers": ["peak season"],
                 "sentence": "Hotel prices usually double during the ___ in the summer."
             },
             {
@@ -1758,7 +1758,7 @@
             },
             {
                 "meaning": "경치가 좋은 / 그림 같이 아름다운",
-                "answers": ["picturesque", "scenic"],
+                "answers": ["scenic"],
                 "sentence": "We decided to take the ___ route along the coast instead of the highway."
             },
             {
@@ -1777,11 +1777,6 @@
                 "sentence": "Since we are moving around a lot, it's very important to ___."
             },
             {
-                "meaning": "눈요기하다 / 경치를 감상하다",
-                "answers": ["take in the view", "take in the scenery"],
-                "sentence": "We sat on the bench for a while just to ___."
-            },
-            {
                 "meaning": "(휴가용) 숙소 / 머물 곳",
                 "answers": ["accommodation", "accommodations"],
                 "sentence": "It's hard to find cheap ___ during the holiday weekend."
@@ -1790,83 +1785,83 @@
     },
 
     {
-        "title": "Hiking Vocabulary ⛰️",
+        "title": "Dining Out Expressions 🍽️",
         "date": "2026-05-11",
         "questions": [
             {
-                "meaning": "등산로 / 산길",
-                "answers": ["trail"],
-                "sentence": "We should stay on the marked ___ so we don't get lost."
+                "meaning": "남은 음식",
+                "answers": ["leftover", "leftovers"],
+                "sentence": "Can I get a box for these ___?"
             },
             {
-                "meaning": "정상 / 꼭대기",
-                "answers": ["summit", "peak"],
-                "sentence": "It took us about three hours to reach the ___."
+                "meaning": "더치페이하다 / 각자 내다",
+                "answers": ["split the bill"],
+                "sentence": "Since we both ordered expensive meals, let's ___."
             },
             {
-                "meaning": "가파른",
-                "answers": ["steep"],
-                "sentence": "The last part of the climb was very ___, so I had to use my hands."
+                "meaning": "(음식을) 포장해가다 / 포장 음식",
+                "answers": ["takeout"],
+                "sentence": "I am too tired to cook tonight, so let's just order ___."
             },
             {
-                "meaning": "오르막(길)",
-                "answers": ["uphill"],
-                "sentence": "Walking ___ is really good exercise for your leg muscles."
+                "meaning": "(자신이) 한턱내다 / 쏘다",
+                "answers": ["on me"],
+                "sentence": "Put your wallet away; dinner is ___ tonight."
             },
             {
-                "meaning": "내리막(길)",
-                "answers": ["downhill"],
-                "sentence": "Be careful not to slip when you are going ___."
+                "meaning": "식욕 / 입맛",
+                "answers": ["appetite"],
+                "sentence": "The delicious smell from the kitchen really gave me a big ___."
             },
             {
-                "meaning": "장비 / 등산 용품",
-                "answers": ["gear"],
-                "sentence": "You don't need expensive ___ for a simple and short hike."
+                "meaning": "(음식의) 양 / 1인분",
+                "answers": ["portion", "portions"],
+                "sentence": "This restaurant is famous for serving huge ___ of pasta."
             },
             {
-                "meaning": "물집",
-                "answers": ["blister", "blisters"],
-                "sentence": "These new boots gave me a painful ___ on my heel."
+                "meaning": "~이 엄청 당기다 / 간절히 먹고 싶다",
+                "answers": ["crave", "craving"],
+                "sentence": "I have been ___ spicy food all day long."
             },
             {
-                "meaning": "(근육의) 경련 / 쥐",
-                "answers": ["cramp", "cramps"],
-                "sentence": "I got a bad ___ in my calf because I didn't stretch."
+                "meaning": "싱거운 / 맛이 밍밍한",
+                "answers": ["bland"],
+                "sentence": "This soup is a bit ___, so I need to add some salt and pepper."
             },
             {
-                "meaning": "풍경 / 경치",
-                "answers": ["scenery", "view"],
-                "sentence": "The ___ from the top of the mountain was absolutely stunning."
+                "meaning": "포장용 상자 (남은 음식 싸갈 때)",
+                "answers": ["to-go box"],
+                "sentence": "Excuse me, could I get a ___ for my leftover pizza?"
             },
             {
-                "meaning": "오르다 / 올라가다",
-                "answers": ["ascend", "climb"],
-                "sentence": "As we continue to ___, the air gets a bit colder."
+                "meaning": "리필 / 리필하다",
+                "answers": ["refill", "refills"],
+                "sentence": "Does this diner offer free ___ on coffee?"
             },
             {
-                "meaning": "내려가다 / 하산하다",
-                "answers": ["descend"],
-                "sentence": "It's getting dark, so we should start to ___ now."
+                "meaning": "대표 메뉴 / 간판 메뉴",
+                "answers": ["signature dish"],
+                "sentence": "You absolutely must try their ___, the truffle mushroom risotto."
             },
             {
-                "meaning": "헐떡이다 / 숨차다",
-                "answers": ["pant", "panting"],
-                "sentence": "The steep stairs left me heavily ___."
+                "meaning": "식성이 까다로운 / 편식하는",
+                "answers": ["picky"],
+                "sentence": "My little brother is a very ___ eater and only eats chicken nuggets."
             },
             {
-                "meaning": "고도 / 해발고도",
-                "answers": ["altitude", "elevation"],
-                "sentence": "Some people feel dizzy when they reach a high ___."
+                "meaning": "배가 터질 듯한 / 매우 배부른",
+                "answers": ["stuffed"],
+                "sentence": "I am completely ___; I can't eat another bite."
             },
             {
-                "meaning": "속도 / 페이스",
-                "answers": ["pace"],
-                "sentence": "It is important to keep a steady ___ when climbing."
+                "meaning": "단골손님",
+                "answers": ["regular", "regulars"],
+                "sentence": "The owner knows my order by heart because I am one of their ___."
             },
             {
-                "meaning": "휴식하다 / 쉬다",
-                "answers": ["rest", "rested"],
-                "sentence": "We ___ for a few minutes before tackling the final climb."
+                "meaning": "예약을 하다",
+                "answers": ["make a reservation"],
+                "sentence": "It gets very busy on weekends, so you should ___ in advance."
             }
         ]
     }
