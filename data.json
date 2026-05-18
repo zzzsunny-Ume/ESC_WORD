@@ -1763,7 +1763,7 @@
             },
             {
                 "meaning": "꼭 봐야 할 곳 / 필수 코스",
-                "answers": ["must-see"],
+                "answers": ["must-see", "must see"],
                 "sentence": "The Grand Canyon is absolutely a ___ if you are visiting Arizona."
             },
             {
@@ -1864,7 +1864,87 @@
                 "sentence": "It gets very busy on weekends, so you should ___ in advance."
             }
         ]
+    },
+
+    {
+        "title": "Hospital & Health Expressions 🏥",
+        "date": "2026-05-18",
+        "questions": [
+            {
+                "meaning": "처방전",
+                "answers": ["prescription"],
+                "sentence": "I need to take this ___ to the pharmacy to get my medicine."
+            },
+            {
+                "meaning": "증상",
+                "answers": ["symptom", "symptoms"],
+                "sentence": "A high fever and a sore throat are common ___ of the flu."
+            },
+            {
+                "meaning": "진통제",
+                "answers": ["painkiller", "painkillers"],
+                "sentence": "If your headache gets worse, you should take some ___."
+            },
+            {
+                "meaning": "어지러운",
+                "answers": ["dizzy"],
+                "sentence": "I stood up too quickly and suddenly felt ___."
+            },
+            {
+                "meaning": "토하다 / 구토하다",
+                "answers": ["vomit", "vomited"],
+                "sentence": "The smell of the spoiled milk made me want to ___."
+            },
+            {
+                "meaning": "(발목, 손목 등을) 삐다",
+                "answers": ["sprain", "sprained"],
+                "sentence": "I accidentally ___ my ankle while playing basketball yesterday."
+            },
+            {
+                "meaning": "멍",
+                "answers": ["bruise", "bruises"],
+                "sentence": "I bumped into the table and got dark ___ on my legs."
+            },
+            {
+                "meaning": "(몸이) 부은 / 부어오른",
+                "answers": ["swollen"],
+                "sentence": "My throat is so ___ that I can't even swallow water."
+            },
+            {
+                "meaning": "소화불량",
+                "answers": ["indigestion"],
+                "sentence": "Eating too much spicy food late at night can cause ___."
+            },
+            {
+                "meaning": "가래",
+                "answers": ["phlegm"],
+                "sentence": "I have a terrible cough and a lot of ___ in my throat."
+            },
+            {
+                "meaning": "기절하다 / 의식을 잃다",
+                "answers": ["faint", "fainted"],
+                "sentence": "The pain was so unbearable that she almost ___."
+            },
+            {
+                "meaning": "(병을) 치료하다 / 낫게 하다",
+                "answers": ["cure"],
+                "sentence": "There is still no medicine that can completely ___ the common cold."
+            },
+            {
+                "meaning": "진료 예약",
+                "answers": ["appointment"],
+                "sentence": "I have an ___ with my dentist at 3 PM tomorrow."
+            },
+            {
+                "meaning": "회복하다",
+                "answers": ["recover", "recovering"],
+                "sentence": "She is currently resting at home and ___ from her surgery."
+            },
+            {
+                "meaning": "전염성이 있는",
+                "answers": ["contagious"],
+                "sentence": "You should stay home because your eye infection is highly ___."
+            }
+        ]
     }
-
-
 ]
