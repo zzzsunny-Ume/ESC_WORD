@@ -1946,5 +1946,87 @@
                 "sentence": "You should stay home because your eye infection is highly ___."
             }
         ]
+    },
+
+    {
+        "title": "Jobs & Occupations 💼",
+        "date": "2026-06-01",
+        "questions": [
+            {
+                "meaning": "회계사",
+                "answers": ["accountant", "accountants"],
+                "sentence": "The company hired two new ___ to handle the complex taxes."
+            },
+            {
+                "meaning": "배관공",
+                "answers": ["plumber"],
+                "sentence": "We had to call a ___ because the bathroom pipe suddenly burst."
+            },
+            {
+                "meaning": "건축가",
+                "answers": ["architect"],
+                "sentence": "The ___ who designed this beautiful museum won a famous award."
+            },
+            {
+                "meaning": "목수",
+                "answers": ["carpenter", "carpenters"],
+                "sentence": "Those skilled ___ built this wooden furniture completely by hand."
+            },
+            {
+                "meaning": "약사",
+                "answers": ["pharmacist"],
+                "sentence": "The ___ explained how many times a day I should take the pills."
+            },
+            {
+                "meaning": "수의사",
+                "answers": ["veterinarian"],
+                "sentence": "I took my sick dog to the ___ this morning for a thorough checkup."
+            },
+            {
+                "meaning": "전기 기사",
+                "answers": ["electrician"],
+                "sentence": "You should never fix those dangerous wires yourself; hire an ___."
+            },
+            {
+                "meaning": "(항공기) 승무원",
+                "answers": ["flight attendant", "flight attendants"],
+                "sentence": "The ___ kindly helped the passengers put their bags in the overhead bins."
+            },
+            {
+                "meaning": "정비사",
+                "answers": ["mechanic", "mechanics"],
+                "sentence": "We need to hire more experienced ___ for our auto repair shop."
+            },
+            {
+                "meaning": "외과 의사",
+                "answers": ["surgeon", "surgeons"],
+                "sentence": "The hospital has a dedicated team of highly skilled heart ___."
+            },
+            {
+                "meaning": "통역사",
+                "answers": ["interpreter"],
+                "sentence": "Since the president doesn't speak French, he traveled with an ___."
+            },
+            {
+                "meaning": "공인중개사 / 부동산 중개인",
+                "answers": ["real estate agent"],
+                "sentence": "The ___ showed us three different apartments near the subway station."
+            },
+            {
+                "meaning": "소방관",
+                "answers": ["firefighter", "firefighters"],
+                "sentence": "The brave ___ successfully put out the terrible forest fire."
+            },
+            {
+                "meaning": "비서",
+                "answers": ["secretary"],
+                "sentence": "The boss asked his ___ to schedule an important meeting for next Tuesday."
+            },
+            {
+                "meaning": "건물 관리인 / 청소부",
+                "answers": ["janitor"],
+                "sentence": "The school ___ stays late every evening to mop the hallway floors."
+            }
+        ]
     }
 ]
