@@ -2028,5 +2028,87 @@
                 "sentence": "The school ___ stays late every evening to mop the hallway floors."
             }
         ]
+    },
+
+    {
+        "title": "Office Supplies 📎",
+        "date": "2026-06-08",
+        "questions": [
+            {
+                "meaning": "형광펜",
+                "answers": ["highlighter", "highlighters"],
+                "sentence": "I need some yellow ___ to mark the important parts of this document."
+            },
+            {
+                "meaning": "서류 파쇄기 / 분쇄기",
+                "answers": ["shredder"],
+                "sentence": "Please put these confidential documents into the ___ right now."
+            },
+            {
+                "meaning": "접착 메모지 (포스트잇)",
+                "answers": ["sticky note", "sticky notes"],
+                "sentence": "I always leave ___ on my computer monitor so I don't forget my tasks."
+            },
+            {
+                "meaning": "압정",
+                "answers": ["thumbtack", "thumbtacks"],
+                "sentence": "Could you pass me some ___ to hang this notice on the board?"
+            },
+            {
+                "meaning": "명함",
+                "answers": ["business card", "business cards"],
+                "sentence": "We exchanged our ___ before the meeting officially started."
+            },
+            {
+                "meaning": "(서류용) 봉투",
+                "answers": ["envelope", "envelopes"],
+                "sentence": "We need larger ___ to mail these thick contracts to the clients."
+            },
+            {
+                "meaning": "계산기",
+                "answers": ["calculator"],
+                "sentence": "I am terrible at math, so I always use a ___ for my taxes."
+            },
+            {
+                "meaning": "집게 클립",
+                "answers": ["binder clip", "binder clips"],
+                "sentence": "This report is too thick for a stapler, so let's use some ___ instead."
+            },
+            {
+                "meaning": "수정액 (화이트)",
+                "answers": ["whiteout"],
+                "sentence": "I made a spelling mistake with my pen, so I need some ___."
+            },
+            {
+                "meaning": "연필깎이",
+                "answers": ["pencil sharpener"],
+                "sentence": "The tip of my pencil broke; do you know where the ___ is?"
+            },
+            {
+                "meaning": "고무줄",
+                "answers": ["rubber band", "rubber bands"],
+                "sentence": "She tied the rolled-up posters together with a few thick ___."
+            },
+            {
+                "meaning": "달력 / 탁상 달력",
+                "answers": ["calendar"],
+                "sentence": "I marked the date of our next team dinner on my desk ___."
+            },
+            {
+                "meaning": "종이 클립",
+                "answers": ["paper clip", "paper clips"],
+                "sentence": "Can I borrow a few ___ to keep these receipts together?"
+            },
+            {
+                "meaning": "펀치 (구멍 뚫는 기구)",
+                "answers": ["hole punch"],
+                "sentence": "Use the ___ before putting those papers into your binder."
+            },
+            {
+                "meaning": "게시판",
+                "answers": ["bulletin board"],
+                "sentence": "The HR department posted the new holiday schedule on the ___."
+            }
+        ]
     }
 ]
