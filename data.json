@@ -2110,5 +2110,87 @@
                 "sentence": "The HR department posted the new holiday schedule on the ___."
             }
         ]
+    },
+
+    {
+        "title": "Driving & Traffic Expressions 🚗",
+        "date": "2026-06-22",
+        "questions": [
+            {
+                "meaning": "운전대 (핸들)",
+                "answers": ["steering wheel"],
+                "sentence": "You must keep both hands on the ___ while driving on the highway."
+            },
+            {
+                "meaning": "룸미러 (백미러)",
+                "answers": ["rearview mirror"],
+                "sentence": "Always check your ___ before you hit the brakes suddenly."
+            },
+            {
+                "meaning": "차에 타다 (승용차, 택시 등)",
+                "answers": ["get in", "got in"],
+                "sentence": "Hurry up and ___ the car before it starts raining."
+            },
+            {
+                "meaning": "차에서 내리다",
+                "answers": ["get out of", "get out"],
+                "sentence": "Please wait until the car completely stops before you ___."
+            },
+            {
+                "meaning": "과속 방지턱",
+                "answers": ["speed bump", "speed bumps"],
+                "sentence": "You need to slow down because there are several ___ in this school zone."
+            },
+            {
+                "meaning": "보행자",
+                "answers": ["pedestrian", "pedestrians"],
+                "sentence": "Drivers must always stop when ___ are crossing the street."
+            },
+            {
+                "meaning": "교차로 / 사거리",
+                "answers": ["intersection"],
+                "sentence": "Take a left turn at the next ___ with the traffic light."
+            },
+            {
+                "meaning": "차선",
+                "answers": ["lane", "lanes"],
+                "sentence": "Make sure to check your blind spot before changing ___."
+            },
+            {
+                "meaning": "경적을 울리다 (빵빵거리다)",
+                "answers": ["honk", "honking"],
+                "sentence": "The angry driver behind me kept ___ because I was driving too slowly."
+            },
+            {
+                "meaning": "차를 길가에 대다 / 정차하다",
+                "answers": ["pull over"],
+                "sentence": "The police officer turned on his sirens and told me to ___ immediately."
+            },
+            {
+                "meaning": "벌금 / 과태료",
+                "answers": ["fine"],
+                "sentence": "I had to pay a heavy ___ for running a red light yesterday."
+            },
+            {
+                "meaning": "펑크 난 타이어",
+                "answers": ["flat tire"],
+                "sentence": "We can't drive anymore because the front wheel has a ___."
+            },
+            {
+                "meaning": "음주 운전",
+                "answers": ["drunk driving"],
+                "sentence": "He lost his driver's license completely because of ___."
+            },
+            {
+                "meaning": "견인하다",
+                "answers": ["tow", "towed"],
+                "sentence": "If you park in front of the fire station, your car will get ___."
+            },
+            {
+                "meaning": "양보하다",
+                "answers": ["yield"],
+                "sentence": "You must ___ to the cars that are already inside the roundabout."
+            }
+        ]
     }
 ]
