@@ -2192,5 +2192,87 @@
                 "sentence": "You must ___ to the cars that are already inside the roundabout."
             }
         ]
+    },
+
+    {
+        "title": "Banking & Finance Expressions 💰",
+        "date": "2026-06-29",
+        "questions": [
+            {
+                "meaning": "입금하다",
+                "answers": ["deposit"],
+                "sentence": "I need to go to the ATM to ___ this cash into my account."
+            },
+            {
+                "meaning": "출금하다 / 돈을 뽑다",
+                "answers": ["withdraw", "withdrew"],
+                "sentence": "He ___ some cash from the ATM to pay for the taxi yesterday."
+            },
+            {
+                "meaning": "이체하다 / 송금하다",
+                "answers": ["transfer"],
+                "sentence": "You can easily ___ money to your friend using the mobile app."
+            },
+            {
+                "meaning": "잔액 / 잔고",
+                "answers": ["balance"],
+                "sentence": "I checked my bank ___ on the app and realized I have almost no money left."
+            },
+            {
+                "meaning": "이자율 / 금리",
+                "answers": ["interest rate", "interest rates"],
+                "sentence": "The bank recently increased its ___ for savings accounts."
+            },
+            {
+                "meaning": "대출",
+                "answers": ["loan"],
+                "sentence": "She had to take out a huge bank ___ to buy her new house."
+            },
+            {
+                "meaning": "수수료",
+                "answers": ["fee", "fees"],
+                "sentence": "You have to pay extra ___ if you use another bank's ATM."
+            },
+            {
+                "meaning": "환전하다",
+                "answers": ["exchange"],
+                "sentence": "Where is the best place to ___ Korean Won for US Dollars?"
+            },
+            {
+                "meaning": "할부(로)",
+                "answers": ["installment", "installments"],
+                "sentence": "I bought the new smartphone and decided to pay for it in monthly ___."
+            },
+            {
+                "meaning": "(빚을) 모두 갚다 / 청산하다",
+                "answers": ["pay off", "paid off"],
+                "sentence": "It took him exactly five years to completely ___ his student loans."
+            },
+            {
+                "meaning": "일시불로",
+                "answers": ["in full"],
+                "sentence": "If you pay the credit card bill ___, you don't have to pay any extra interest."
+            },
+            {
+                "meaning": "빚 / 부채",
+                "answers": ["debt"],
+                "sentence": "He is currently working two jobs to get out of his heavy credit card ___."
+            },
+            {
+                "meaning": "돈을 모으다 / 저축하다",
+                "answers": ["save up", "saving up"],
+                "sentence": "I am ___ to buy a brand new car next year."
+            },
+            {
+                "meaning": "(은행, 카드) 거래 내역서 / 명세서",
+                "answers": ["statement"],
+                "sentence": "I found a strange purchase while checking my credit card ___ this morning."
+            },
+            {
+                "meaning": "예산",
+                "answers": ["budget"],
+                "sentence": "We spent too much on eating out and went over our monthly ___."
+            }
+        ]
     }
 ]
