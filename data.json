@@ -2274,5 +2274,87 @@
                 "sentence": "We spent too much on eating out and went over our monthly ___."
             }
         ]
+    },
+
+    {
+        "title": "Public Offices & Institutions 🏛️",
+        "date": "2026-07-06",
+        "questions": [
+            {
+                "meaning": "시청",
+                "answers": ["city hall"],
+                "sentence": "We went to the ___ to officially register our marriage."
+            },
+            {
+                "meaning": "구청",
+                "answers": ["district office"],
+                "sentence": "You can get your passport issued at the local ___."
+            },
+            {
+                "meaning": "동사무소 / 행정복지센터",
+                "answers": ["community center"],
+                "sentence": "I visited the ___ to get a copy of my resident registration."
+            },
+            {
+                "meaning": "세무서",
+                "answers": ["tax office"],
+                "sentence": "I need to visit the local ___ to solve a problem with my income taxes."
+            },
+            {
+                "meaning": "우체국",
+                "answers": ["post office"],
+                "sentence": "I have to stop by the ___ to send this large package to Canada."
+            },
+            {
+                "meaning": "경찰서",
+                "answers": ["police station"],
+                "sentence": "He went to the nearest ___ to report his stolen wallet."
+            },
+            {
+                "meaning": "소방서",
+                "answers": ["fire station"],
+                "sentence": "The children went on a field trip to the ___ to see the red fire trucks."
+            },
+            {
+                "meaning": "법원",
+                "answers": ["courthouse"],
+                "sentence": "The trial will take place at the main ___ downtown next Monday."
+            },
+            {
+                "meaning": "대사관",
+                "answers": ["embassy"],
+                "sentence": "If you lose your passport abroad, you should contact your country's ___."
+            },
+            {
+                "meaning": "영사관 (대사관의 지부 역할)",
+                "answers": ["consulate"],
+                "sentence": "I had to visit the foreign ___ to get a special travel visa."
+            },
+            {
+                "meaning": "출입국관리소",
+                "answers": ["immigration office"],
+                "sentence": "You must visit the ___ to extend your stay before your visa expires."
+            },
+            {
+                "meaning": "세관",
+                "answers": ["customs"],
+                "sentence": "All international passengers must pass through ___ before leaving the airport."
+            },
+            {
+                "meaning": "보건소",
+                "answers": ["public health center"],
+                "sentence": "You can get a free flu shot at the ___ this winter."
+            },
+            {
+                "meaning": "차량등록사업소 / 운전면허 관리국 (미국)",
+                "answers": ["DMV"],
+                "sentence": "I spent three hours waiting in line at the ___ to renew my driver's license."
+            },
+            {
+                "meaning": "특허청",
+                "answers": ["patent office"],
+                "sentence": "The inventor submitted his new machine design to the ___."
+            }
+        ]
     }
 ]
