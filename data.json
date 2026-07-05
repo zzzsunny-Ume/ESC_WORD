@@ -2356,5 +2356,87 @@
                 "sentence": "The inventor submitted his new machine design to the ___."
             }
         ]
+    },
+
+    {
+        "title": "Optician & Eyesight Expressions 👓",
+        "date": "2026-07-13",
+        "questions": [
+            {
+                "meaning": "안경테",
+                "answers": ["frame", "frames"],
+                "sentence": "I want to buy these new glasses ___, but they are a bit too expensive."
+            },
+            {
+                "meaning": "안경알 / (안경) 렌즈",
+                "answers": ["lens", "lenses"],
+                "sentence": "My eyesight got worse, so I just need to replace the ___ in my old glasses."
+            },
+            {
+                "meaning": "시력",
+                "answers": ["eyesight"],
+                "sentence": "Eating a lot of carrots and blueberries is known to be good for your ___."
+            },
+            {
+                "meaning": "시력 검사",
+                "answers": ["eye exam"],
+                "sentence": "You should get an ___ every year to check the overall health of your eyes."
+            },
+            {
+                "meaning": "(안경, 렌즈의) 도수 / 처방전",
+                "answers": ["prescription"],
+                "sentence": "My current glasses are blurry because my ___ has changed recently."
+            },
+            {
+                "meaning": "근시의 (가까운 것만 잘 보이는)",
+                "answers": ["nearsighted"],
+                "sentence": "I am severely ___, so I can't read the menu on the wall without my glasses."
+            },
+            {
+                "meaning": "난시",
+                "answers": ["astigmatism"],
+                "sentence": "People with ___ often see streetlights blurring or streaking at night."
+            },
+            {
+                "meaning": "(얼굴형에 맞게 안경을) 조절하다 / 피팅하다",
+                "answers": ["adjust", "adjusted"],
+                "sentence": "The optician ___ the frames so they wouldn't slide down my nose anymore."
+            },
+            {
+                "meaning": "콘택트렌즈 (일상적인 줄임말)",
+                "answers": ["contact", "contacts"],
+                "sentence": "I usually wear glasses at home and put on my ___ when I go out."
+            },
+            {
+                "meaning": "(렌즈) 세척액 / 보존액",
+                "answers": ["solution"],
+                "sentence": "Don't forget to wash your lenses with the contact ___ every single night."
+            },
+            {
+                "meaning": "(렌즈를 눈에) 끼다 / 넣다",
+                "answers": ["put in"],
+                "sentence": "It takes a lot of practice to easily ___ your contact lenses without blinking."
+            },
+            {
+                "meaning": "(렌즈를) 빼다",
+                "answers": ["take out"],
+                "sentence": "You must always wash your hands with soap before you ___ your contacts."
+            },
+            {
+                "meaning": "(안경을) 벗다",
+                "answers": ["take off"],
+                "sentence": "Please ___ your glasses before you go to sleep so they don't break."
+            },
+            {
+                "meaning": "눈부심 방지 (코팅)",
+                "answers": ["anti-glare"],
+                "sentence": "Adding an ___ coating to your lenses is highly recommended for night driving."
+            },
+            {
+                "meaning": "안경닦이 (천)",
+                "answers": ["cleaning cloth"],
+                "sentence": "Never use a rough tissue to wipe your lenses; always use a soft ___."
+            }
+        ]
     }
 ]
