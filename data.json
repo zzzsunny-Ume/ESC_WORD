@@ -2438,5 +2438,87 @@
                 "sentence": "Never use a rough tissue to wipe your lenses; always use a soft ___."
             }
         ]
+    },
+
+    {
+        "title": "Airport Phrasal Verbs ✈️",
+        "date": "2026-07-13",
+        "questions": [
+            {
+                "meaning": "탑승 수속을 밟다",
+                "answers": ["check in"],
+                "sentence": "We need to ___ at the airline counter at least two hours before the flight."
+            },
+            {
+                "meaning": "이륙하다 / (비행기가) 날아오르다",
+                "answers": ["take off"],
+                "sentence": "Please fasten your seatbelt securely because the plane is about to ___."
+            },
+            {
+                "meaning": "착륙하다 / 땅에 닿다",
+                "answers": ["touch down", "touches down"],
+                "sentence": "Please remain seated until the plane completely ___ on the runway."
+            },
+            {
+                "meaning": "(수하물을) 맡기다",
+                "answers": ["drop off"],
+                "sentence": "You can quickly ___ your heavy suitcases at that counter over there."
+            },
+            {
+                "meaning": "(검색대, 절차 등을) 통과하다 / 거치다",
+                "answers": ["go through"],
+                "sentence": "It usually takes a long time to ___ security during the holiday season."
+            },
+            {
+                "meaning": "(비행기, 기차 등에) 올라타다 / 탑승하다",
+                "answers": ["get on"],
+                "sentence": "Have your boarding pass and passport ready before you ___ the plane."
+            },
+            {
+                "meaning": "(비행기 등에서) 내리다",
+                "answers": ["get off"],
+                "sentence": "Please make sure you have all your personal belongings when you ___ the aircraft."
+            },
+            {
+                "meaning": "경유하다 / 잠시 머물다",
+                "answers": ["stop over"],
+                "sentence": "We are going to ___ in Dubai for three hours before flying to Paris."
+            },
+            {
+                "meaning": "(비행이나 일정을) 지연시키다 / 발을 묶다",
+                "answers": ["hold up", "held up"],
+                "sentence": "Our flight was ___ for two hours because of the heavy snowstorm."
+            },
+            {
+                "meaning": "(면세점 등을) 둘러보다 / 구경하다",
+                "answers": ["look around"],
+                "sentence": "We have some extra time to ___ the duty-free shops before boarding starts."
+            },
+            {
+                "meaning": "(사람을) 마중 나가다 / 차로 데리러 가다",
+                "answers": ["pick up"],
+                "sentence": "My brother promised to ___ my family at the arrival gate."
+            },
+            {
+                "meaning": "(여행을 향해) 출발하다 / 길을 나서다",
+                "answers": ["set off"],
+                "sentence": "We should ___ for the airport early to avoid the terrible morning traffic."
+            },
+            {
+                "meaning": "줄을 서다",
+                "answers": ["line up"],
+                "sentence": "The passengers started to ___ at the gate thirty minutes before departure."
+            },
+            {
+                "meaning": "(주변을) 서성거리다 / 시간을 때우다",
+                "answers": ["hang around"],
+                "sentence": "Since our flight is delayed, we will just have to ___ the waiting area."
+            },
+            {
+                "meaning": "(짐을) 싸다 / 챙겨서 정리하다",
+                "answers": ["pack up", "packed up"],
+                "sentence": "Make sure you have ___ all your chargers before leaving the VIP lounge."
+            }
+        ]
     }
 ]
