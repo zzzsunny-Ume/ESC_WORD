@@ -2520,5 +2520,87 @@
                 "sentence": "Make sure you have ___ all your chargers before leaving the VIP lounge."
             }
         ]
+    },
+
+    {
+        "title": "Native Spoken Expressions 🗣️",
+        "date": "2026-08-10",
+        "questions": [
+            {
+                "meaning": "(변명, 거짓말 등을) 믿다 / 속아 넘어가다",
+                "answers": ["buy"],
+                "sentence": "He said he was sick, but I don't ___ his excuse."
+            },
+            {
+                "meaning": "아쉬운 일 / 실망스러운 상황",
+                "answers": ["bummer"],
+                "sentence": "It's a huge ___ that the concert got canceled."
+            },
+            {
+                "meaning": "(갑자기) 연락을 끊다 / 잠수 타다",
+                "answers": ["ghost", "ghosted"],
+                "sentence": "We went on a few dates, and then she completely ___ me."
+            },
+            {
+                "meaning": "약속을 취소하다 / 파토내다",
+                "answers": ["bail", "bailed"],
+                "sentence": "I am so sorry, but I have to ___ on our dinner plans tonight."
+            },
+            {
+                "meaning": "하소연하다 / 속에 있는 말을 터뜨리다",
+                "answers": ["vent", "venting"],
+                "sentence": "I just had a terrible day at work and need someone to listen to me ___."
+            },
+            {
+                "meaning": "녹초가 된 / 몹시 피곤한",
+                "answers": ["beat"],
+                "sentence": "I worked for twelve hours straight today, and I am completely ___."
+            },
+            {
+                "meaning": "완전 신난 / 잔뜩 기대하는",
+                "answers": ["stoked"],
+                "sentence": "I am so ___ for the upcoming trip to Hawaii next week."
+            },
+            {
+                "meaning": "삐친 / 억울해서 화가 난",
+                "answers": ["salty"],
+                "sentence": "He is still a bit ___ because he lost the video game to his little brother."
+            },
+            {
+                "meaning": "수상한 / 미심쩍은",
+                "answers": ["sketchy"],
+                "sentence": "I wouldn't walk down that dark street at night; it looks a bit ___."
+            },
+            {
+                "meaning": "애매한 / 상태가 안 좋은",
+                "answers": ["iffy"],
+                "sentence": "The weather looks a bit ___ today, so maybe we should stay inside."
+            },
+            {
+                "meaning": "은근히 / 겉으로 티 안 내게",
+                "answers": ["low-key"],
+                "sentence": "I am ___ worried about the test tomorrow, but I'm trying not to show it."
+            },
+            {
+                "meaning": "직감 / 본능적인 느낌",
+                "answers": ["gut"],
+                "sentence": "Sometimes you just have to trust your ___ and make a decision."
+            },
+            {
+                "meaning": "위기일발에 딱 맞게 도움을 주는 / 결정적인",
+                "answers": ["clutch"],
+                "sentence": "Bringing an extra umbrella was totally ___ since it started pouring rain."
+            },
+            {
+                "meaning": "(조건 없는 호의 등에 숨겨진) 함정 / 속셈",
+                "answers": ["catch"],
+                "sentence": "They are giving away free laptops? There has to be a ___."
+            },
+            {
+                "meaning": "믿음직한 / (부족함 없이) 훌륭한",
+                "answers": ["solid"],
+                "sentence": "He gave me some really ___ advice on how to handle the situation."
+            }
+        ]
     }
 ]
