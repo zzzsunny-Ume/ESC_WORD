@@ -2602,5 +2602,87 @@
                 "sentence": "He gave me some really ___ advice on how to handle the situation."
             }
         ]
+    },
+
+    {
+        "title": "Hyphenated Spoken Expressions 🗣️",
+        "date": "2026-07-27",
+        "questions": [
+            {
+                "meaning": "용납할 수 없는 조건 / 거래 무산의 원인",
+                "answers": ["deal-breaker", "deal breaker"],
+                "sentence": "His lack of communication was a huge ___ for me in the relationship."
+            },
+            {
+                "meaning": "가장 즐겨 찾는 / 의지하는 (사람이나 물건)",
+                "answers": ["go-to", "go to"],
+                "sentence": "Whenever I need advice on cooking, my mom is my ___ person."
+            },
+            {
+                "meaning": "판도를 바꾸는 것 / 획기적인 변화",
+                "answers": ["game-changer", "game changer"],
+                "sentence": "The new software update is a complete ___ for our daily workflow."
+            },
+            {
+                "meaning": "바가지 / 터무니없이 비싼 것",
+                "answers": ["rip-off", "rip off"],
+                "sentence": "Fifty dollars for a cup of coffee is a total ___."
+            },
+            {
+                "meaning": "착오 / 혼동",
+                "answers": ["mix-up", "mix up"],
+                "sentence": "There was a slight ___ with your reservation, but we fixed it."
+            },
+            {
+                "meaning": "실망스러운 것 / 허탈함",
+                "answers": ["let-down", "let down"],
+                "sentence": "The movie's ending was a huge ___ after such a great buildup."
+            },
+            {
+                "meaning": "필수 아이템 / 꼭 가져야 할 것",
+                "answers": ["must-have", "must have"],
+                "sentence": "A warm winter coat is an absolute ___ if you live in Canada."
+            },
+            {
+                "meaning": "일장일단 / 타협점",
+                "answers": ["trade-off", "trade off"],
+                "sentence": "There is always a ___ between speed and quality when building a product."
+            },
+            {
+                "meaning": "모조품 / 짝퉁",
+                "answers": ["knock-off", "knock off"],
+                "sentence": "He bought a cheap ___ of a designer bag at the night market."
+            },
+            {
+                "meaning": "가벼운 모임 / 친목회",
+                "answers": ["get-together", "get together"],
+                "sentence": "We are having a small ___ at my house this Friday night."
+            },
+            {
+                "meaning": "후속 조치 / 후속 점검",
+                "answers": ["follow-up", "follow up"],
+                "sentence": "The doctor scheduled a ___ appointment for next Wednesday to check on my progress."
+            },
+            {
+                "meaning": "어색함을 깨는 것 (농담이나 활동)",
+                "answers": ["ice-breaker", "ice breaker"],
+                "sentence": "We played a fun game as an ___ before the meeting started."
+            },
+            {
+                "meaning": "상호 이익 / 모두에게 좋은 상황",
+                "answers": ["win-win", "win win"],
+                "sentence": "This new partnership is a ___ situation for both of our companies."
+            },
+            {
+                "meaning": "근황 토크 / 밀린 이야기 나누기",
+                "answers": ["catch-up", "catch up"],
+                "sentence": "Let's grab a cup of coffee next week for a quick ___."
+            },
+            {
+                "meaning": "상황 점검 / 짧은 회의",
+                "answers": ["check-in", "check in"],
+                "sentence": "We have a brief ___ every morning to discuss our daily tasks."
+            }
+        ]
     }
 ]
