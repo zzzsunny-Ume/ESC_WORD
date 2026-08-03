@@ -2684,5 +2684,87 @@
                 "sentence": "We have a brief ___ every morning to discuss our daily tasks."
             }
         ]
+    },
+
+    {
+        "title": "Driving & Commuting 🚗",
+        "date": "2026-08-03",
+        "questions": [
+            {
+                "meaning": "차를 길가에 대다",
+                "answers": ["pull over"],
+                "sentence": "We had to ___ because we heard a strange noise coming from the engine."
+            },
+            {
+                "meaning": "가벼운 접촉 사고",
+                "answers": ["fender-bender", "fender bender"],
+                "sentence": "I got into a minor ___ on my way to the office this morning."
+            },
+            {
+                "meaning": "안전벨트를 매다",
+                "answers": ["buckle up"],
+                "sentence": "Please ___ before we get on the highway."
+            },
+            {
+                "meaning": "(교통이) 밀리다 / 정체되다",
+                "answers": ["back up", "backed up"],
+                "sentence": "Traffic is completely ___ for miles due to the road construction."
+            },
+            {
+                "meaning": "앞차에 바짝 붙어 운전하다",
+                "answers": ["tailgate", "tailgating"],
+                "sentence": "It is extremely dangerous to be ___ a large truck on the freeway."
+            },
+            {
+                "meaning": "과속 방지턱",
+                "answers": ["speed bump"],
+                "sentence": "You need to slow down because there is a ___ right ahead."
+            },
+            {
+                "meaning": "타이어 펑크",
+                "answers": ["flat tire"],
+                "sentence": "I was late for my job interview because my car got a ___."
+            },
+            {
+                "meaning": "우회로",
+                "answers": ["detour"],
+                "sentence": "The bridge is closed for repairs, so we have to take a ___."
+            },
+            {
+                "meaning": "과속 딱지",
+                "answers": ["speeding ticket"],
+                "sentence": "My dad was really upset when he got a ___ in the mail."
+            },
+            {
+                "meaning": "브레이크를 (급히) 밟다",
+                "answers": ["hit the brakes"],
+                "sentence": "I had to suddenly ___ when a cat ran across the street."
+            },
+            {
+                "meaning": "출퇴근 혼잡 시간",
+                "answers": ["rush hour"],
+                "sentence": "It usually takes twice as long to get home during ___."
+            },
+            {
+                "meaning": "차를 빼다 / (도로로) 빠져나오다",
+                "answers": ["pull out"],
+                "sentence": "Always check your blind spot before you ___ of the driveway."
+            },
+            {
+                "meaning": "평행 주차하다",
+                "answers": ["parallel park"],
+                "sentence": "Many beginners find it very difficult to ___ on a busy street."
+            },
+            {
+                "meaning": "기름(가스)이 다 떨어지다",
+                "answers": ["run out of gas", "ran out of gas"],
+                "sentence": "We unfortunately ___ in the middle of nowhere and had to call a tow truck."
+            },
+            {
+                "meaning": "카풀하다 / 차를 같이 타다",
+                "answers": ["carpool", "carpooling"],
+                "sentence": "My coworkers and I are ___ to work these days to save some money."
+            }
+        ]
     }
 ]
