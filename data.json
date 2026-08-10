@@ -2766,5 +2766,82 @@
                 "sentence": "My coworkers and I are ___ to work these days to save some money."
             }
         ]
+    },
+
+    {
+        "title": "Modern Dating & Relationship Slang 💘",
+        "date": "2026-08-10",
+        "questions": [
+            {
+                "meaning": "과도한 애정 공세를 퍼붓다",
+                "answers": ["love bomb", "love bombing"],
+                "sentence": "It's a huge red flag if someone starts ___ you right after the first date."
+            },
+            {
+                "meaning": "간만 보다 / 여지만 남기다 (어장 관리)",
+                "answers": ["breadcrumb", "breadcrumbing"],
+                "sentence": "He is just ___ you by sending random texts without ever making real plans."
+            },
+            {
+                "meaning": "연락은 안 하면서 SNS 주변만 맴돌다",
+                "answers": ["orbit", "orbiting"],
+                "sentence": "My ex keeps ___ me by watching all my Instagram stories but never replying."
+            },
+            {
+                "meaning": "썸과 연애 사이의 애매한 관계",
+                "answers": ["situationship"],
+                "sentence": "We hang out every weekend, but we are still stuck in a ___ with no clear labels."
+            },
+            {
+                "meaning": "위험 신호 / 걸러야 할 특징",
+                "answers": ["red flag"],
+                "sentence": "The fact that he talks badly about all his exes is a massive ___."
+            },
+            {
+                "meaning": "긍정적인 신호 / 좋은 사람의 특징",
+                "answers": ["green flag"],
+                "sentence": "How respectfully she treats the restaurant staff is definitely a big ___."
+            },
+            {
+                "meaning": "갑자기 정떨어지는 순간이나 느낌",
+                "answers": ["ick"],
+                "sentence": "I was really into him until he was rude to the waiter, and then I instantly got the ___."
+            },
+            {
+                "meaning": "보험용으로 어장에 두다",
+                "answers": ["bench", "benching"],
+                "sentence": "She isn't ready for a relationship, so she is just ___ you in case she changes her mind."
+            },
+            {
+                "meaning": "은근슬쩍 연애 티를 내다 (얼굴 없는 사진 등)",
+                "answers": ["soft launch"],
+                "sentence": "Posting a picture of two coffee cups without showing his face is a classic ___."
+            },
+            {
+                "meaning": "온라인에서 다른 사람인 척 신분을 속이다",
+                "answers": ["catfish", "catfishing"],
+                "sentence": "You should video call him before meeting up to make sure he isn't ___ you."
+            },
+            {
+                "meaning": "이별 후 위로 삼아 만나는 사람 (리바운드)",
+                "answers": ["rebound"],
+                "sentence": "Don't date him right now; he just broke up and you will only be a ___."
+            },
+            {
+                "meaning": "존재를 지인들에게 꽁꽁 숨기다",
+                "answers": ["stash", "stashing"],
+                "sentence": "If he hasn't introduced you to any of his friends after six months, he is probably ___ you."
+            },
+            {
+                "meaning": "날이 추워져서 짝을 찾는 시기 (겨울 연애철)",
+                "answers": ["cuffing season"],
+                "sentence": "As the weather gets colder, many single people start looking for partners for ___."
+            },
+            {
+                "meaning": "서서히 연락을 줄이며 멀어지기",
+                "answers": ["slow fade"],
+                "sentence": "Instead of breaking up directly, he decided to do the ___ by taking hours to reply."
+            }
+        ]
     }
 ]
