@@ -2843,5 +2843,87 @@
                 "sentence": "Instead of breaking up directly, he decided to do the ___ by taking hours to reply."
             }
         ]
+    },
+
+    {
+        "title": "Real Estate & House Hunting 🏠",
+        "date": "2026-08-18",
+        "questions": [
+            {
+                "meaning": "집주인",
+                "answers": ["landlord"],
+                "sentence": "I need to call my ___ because the heater is completely broken."
+            },
+            {
+                "meaning": "세입자",
+                "answers": ["tenant", "tenants"],
+                "sentence": "The landlord is looking for new ___ to move into the empty apartment."
+            },
+            {
+                "meaning": "보증금",
+                "answers": ["security deposit"],
+                "sentence": "You will get your full ___ back when your contract ends."
+            },
+            {
+                "meaning": "월세",
+                "answers": ["monthly rent"],
+                "sentence": "The ___ for this small apartment is way too expensive for me."
+            },
+            {
+                "meaning": "임대차 계약(서)",
+                "answers": ["lease"],
+                "sentence": "I officially signed a one-year ___ for the new apartment this morning."
+            },
+            {
+                "meaning": "원룸 (방과 거실이 하나로 된 형태)",
+                "answers": ["studio apartment"],
+                "sentence": "She lives alone in a cozy ___ near the subway station."
+            },
+            {
+                "meaning": "풀옵션의 (가구와 가전이 모두 갖춰진)",
+                "answers": ["fully furnished"],
+                "sentence": "I don't need to buy a bed or a desk because the room is ___."
+            },
+            {
+                "meaning": "관리비",
+                "answers": ["maintenance fee"],
+                "sentence": "Does the rent include the ___ for building cleaning and parking?"
+            },
+            {
+                "meaning": "이사 오다 / 입주하다",
+                "answers": ["move in"],
+                "sentence": "I just got the keys, and I am planning to ___ this weekend."
+            },
+            {
+                "meaning": "이사 나가다 / 방을 빼다",
+                "answers": ["move out"],
+                "sentence": "You must completely clean the room before you ___ next week."
+            },
+            {
+                "meaning": "주택 담보 대출",
+                "answers": ["mortgage"],
+                "sentence": "It will take them exactly thirty years to fully pay off their ___."
+            },
+            {
+                "meaning": "계약금 / 선수금",
+                "answers": ["down payment"],
+                "sentence": "I finally saved enough money to make a 20% ___ on a house."
+            },
+            {
+                "meaning": "집들이",
+                "answers": ["housewarming party"],
+                "sentence": "We are throwing a small ___ this Saturday, so please come!"
+            },
+            {
+                "meaning": "퇴거시키다 / 쫓아내다",
+                "answers": ["evict", "evicted"],
+                "sentence": "The angry landlord ___ him because he didn't pay rent for three months."
+            },
+            {
+                "meaning": "평면도 / 집 도면",
+                "answers": ["floor plan"],
+                "sentence": "I carefully checked the ___ online before visiting the property in person."
+            }
+        ]
     }
 ]
