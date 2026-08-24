@@ -2925,5 +2925,87 @@
                 "sentence": "I carefully checked the ___ online before visiting the property in person."
             }
         ]
+    },
+
+    {
+        "title": "Personality & Behavioral Traits 🧠",
+        "date": "2026-08-24",
+        "questions": [
+            {
+                "meaning": "덜렁대는 / 서투른",
+                "answers": ["clumsy"],
+                "sentence": "I am so ___ that I always drop my phone or spill my coffee."
+            },
+            {
+                "meaning": "느긋한 / 털털한",
+                "answers": ["laid-back", "laid back"],
+                "sentence": "He is very ___ and never gets stressed about small mistakes."
+            },
+            {
+                "meaning": "고집이 센 / 완고한",
+                "answers": ["stubborn"],
+                "sentence": "She is so ___ that she never listens to anyone else's advice."
+            },
+            {
+                "meaning": "참견하기 좋아하는 / 오지랖 넓은",
+                "answers": ["nosy"],
+                "sentence": "My ___ neighbor is always trying to find out about my personal life."
+            },
+            {
+                "meaning": "다혈질의 / 욱하는",
+                "answers": ["hot-tempered", "hot tempered"],
+                "sentence": "You need to be careful what you say to him because he is quite ___."
+            },
+            {
+                "meaning": "인색한 / 짠돌이인",
+                "answers": ["stingy"],
+                "sentence": "He is too ___ to leave a tip for the waiter at the restaurant."
+            },
+            {
+                "meaning": "사교성이 매우 좋은 사람 / 마당발",
+                "answers": ["social butterfly"],
+                "sentence": "My sister is a true ___ who loves going to parties and meeting new people."
+            },
+            {
+                "meaning": "눈치 빠른 / 재치 있는",
+                "answers": ["quick-witted", "quick witted"],
+                "sentence": "You need to be ___ to understand all the clever jokes in this movie."
+            },
+            {
+                "meaning": "건망증이 심한 / 잘 깜빡하는",
+                "answers": ["forgetful"],
+                "sentence": "As my grandfather got older, he became quite ___ about people's names."
+            },
+            {
+                "meaning": "솔직한 / 직설적인",
+                "answers": ["straightforward"],
+                "sentence": "I appreciate how ___ she is; she always tells you exactly what she thinks."
+            },
+            {
+                "meaning": "이래라저래라 하는 / 지시하기 좋아하는",
+                "answers": ["bossy"],
+                "sentence": "Nobody likes working with him because he is too ___ to his coworkers."
+            },
+            {
+                "meaning": "개방적인 / 편견 없는",
+                "answers": ["open-minded", "open minded"],
+                "sentence": "We need an ___ person who can accept different cultures and new ideas."
+            },
+            {
+                "meaning": "소심한 / 겁이 많은",
+                "answers": ["timid"],
+                "sentence": "The ___ little boy hid behind his mother's legs when a stranger said hello."
+            },
+            {
+                "meaning": "믿음직한 / 의지가 되는",
+                "answers": ["reliable"],
+                "sentence": "He is a very ___ friend who will always be there to help you when you are in trouble."
+            },
+            {
+                "meaning": "앞뒤가 다른 / 위선적인",
+                "answers": ["two-faced", "two faced"],
+                "sentence": "I found out she was talking bad about me behind my back; she is so ___."
+            }
+        ]
     }
 ]
