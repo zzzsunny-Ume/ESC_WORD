@@ -3007,5 +3007,87 @@
                 "sentence": "I found out she was talking bad about me behind my back; she is so ___."
             }
         ]
+    },
+
+    {
+        "title": "Hospital & Health Expressions 🏥",
+        "date": "2026-08-31",
+        "questions": [
+            {
+                "meaning": "깁스",
+                "answers": ["cast"],
+                "sentence": "I broke my leg while skiing, so I have to wear a ___ for six weeks."
+            },
+            {
+                "meaning": "링거 / 수액",
+                "answers": ["IV"],
+                "sentence": "He was so dehydrated that the doctor had to give him an ___ at the hospital."
+            },
+            {
+                "meaning": "허리 디스크",
+                "answers": ["slipped disc", "slipped disk"],
+                "sentence": "My uncle had to get surgery last month because of a painful ___."
+            },
+            {
+                "meaning": "체함 / 소화불량 (속이 안 좋은 상태)",
+                "answers": ["upset stomach"],
+                "sentence": "I think I ate that spicy food too fast, and now I have an ___."
+            },
+            {
+                "meaning": "처방전",
+                "answers": ["prescription"],
+                "sentence": "You cannot buy these strong antibiotics at the pharmacy without a doctor's ___."
+            },
+            {
+                "meaning": "진통제",
+                "answers": ["painkiller", "painkillers"],
+                "sentence": "If your headache gets worse, take two of these ___ after meals."
+            },
+            {
+                "meaning": "연고",
+                "answers": ["ointment"],
+                "sentence": "Wash the cut carefully and apply this ___ to prevent an infection."
+            },
+            {
+                "meaning": "콧물 / 콧물이 흐르는 상태",
+                "answers": ["runny nose"],
+                "sentence": "I caught a bad cold, and I have had a ___ and a fever all day."
+            },
+            {
+                "meaning": "인후통 / 목이 따가운 증상",
+                "answers": ["sore throat"],
+                "sentence": "It hurts every time I swallow water because I have a terrible ___."
+            },
+            {
+                "meaning": "입원하다",
+                "answers": ["hospitalize", "hospitalized"],
+                "sentence": "She was heavily injured in the car crash and had to be ___ for a month."
+            },
+            {
+                "meaning": "퇴원하다",
+                "answers": ["discharge", "discharged"],
+                "sentence": "The doctor checked my test results and said I will be ___ tomorrow morning."
+            },
+            {
+                "meaning": "병가를 내다 (아파서 쉰다고 연락하다)",
+                "answers": ["call in sick"],
+                "sentence": "I feel completely terrible this morning, so I have to ___ today."
+            },
+            {
+                "meaning": "멍 / 멍이 들다",
+                "answers": ["bruise", "bruised"],
+                "sentence": "My arm is badly ___ from falling off my bicycle yesterday."
+            },
+            {
+                "meaning": "부작용",
+                "answers": ["side effect", "side effects"],
+                "sentence": "Drowsiness and a dry mouth are the most common ___ of this allergy medicine."
+            },
+            {
+                "meaning": "(근육에) 쥐가 나다 / 경련",
+                "answers": ["cramp", "cramps"],
+                "sentence": "I didn't stretch before running, so I got terrible ___ in my legs."
+            }
+        ]
     }
 ]
