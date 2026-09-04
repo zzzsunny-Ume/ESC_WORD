@@ -3089,5 +3089,87 @@
                 "sentence": "I didn't stretch before running, so I got terrible ___ in my legs."
             }
         ]
+    },
+
+    {
+        "title": "College & University Life Expressions 🎓",
+        "date": "2026-09-07",
+        "questions": [
+            {
+                "meaning": "벼락치기하다",
+                "answers": ["cram", "cramming"],
+                "sentence": "I didn't study at all, so I will be ___ for my history midterms tonight."
+            },
+            {
+                "meaning": "밤을 새우다 (과제나 시험 때문에)",
+                "answers": ["pull an all-nighter", "pull an all nighter", "pulled an all-nighter", "pulled an all nighter"],
+                "sentence": "We had to finish the final presentation, so we completely ___ yesterday."
+            },
+            {
+                "meaning": "수강신청",
+                "answers": ["course registration"],
+                "sentence": "Our university's ___ website always crashes on the very first day."
+            },
+            {
+                "meaning": "팀플 / 조별 과제",
+                "answers": ["group project", "group projects"],
+                "sentence": "I usually hate ___ because there is always one person who doesn't do any work."
+            },
+            {
+                "meaning": "컨닝하다 / 부정행위를 하다 (콩글리시 'cunning' 교정)",
+                "answers": ["cheat", "cheating"],
+                "sentence": "He was caught ___ on the final exam and failed the class immediately."
+            },
+            {
+                "meaning": "휴학하다 (한 학기 쉬다)",
+                "answers": ["take a semester off", "took a semester off"],
+                "sentence": "She was feeling so burned out that she ___ to travel around Europe."
+            },
+            {
+                "meaning": "동아리 (콩글리시 'circle' 교정)",
+                "answers": ["club", "clubs"],
+                "sentence": "Joining various student ___ is a great way to make new friends on campus."
+            },
+            {
+                "meaning": "재수강하다",
+                "answers": ["retake", "retaking"],
+                "sentence": "I got a D in calculus, so I am definitely ___ the class next semester."
+            },
+            {
+                "meaning": "족보 / 기출문제",
+                "answers": ["past paper", "past papers"],
+                "sentence": "Studying with ___ from previous years is the best way to prepare for his tests."
+            },
+            {
+                "meaning": "복수전공 / 복수전공을 하다",
+                "answers": ["double major", "double majoring"],
+                "sentence": "She is ___ in economics and psychology, so her schedule is always incredibly packed."
+            },
+            {
+                "meaning": "출석을 부르다",
+                "answers": ["take attendance", "takes attendance"],
+                "sentence": "The professor usually ___ right at the beginning of the lecture."
+            },
+            {
+                "meaning": "공강 (수업과 수업 사이 비는 시간)",
+                "answers": ["free period"],
+                "sentence": "I have a three-hour ___ on Wednesdays, so I usually go to the library to read."
+            },
+            {
+                "meaning": "조교 (TA)",
+                "answers": ["teaching assistant"],
+                "sentence": "If you have any questions about the homework, please ask the ___."
+            },
+            {
+                "meaning": "(과제나 논문을) 표절하다",
+                "answers": ["plagiarize", "plagiarized"],
+                "sentence": "He was expelled from the university because he completely ___ his graduation thesis."
+            },
+            {
+                "meaning": "자체 휴강하다 / 수업을 땡땡이치다",
+                "answers": ["skip class", "skipping class", "skipped class"],
+                "sentence": "The weather was so beautiful that we just ___ and went to the park instead."
+            }
+        ]
     }
 ]
