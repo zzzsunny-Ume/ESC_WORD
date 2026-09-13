@@ -3171,5 +3171,87 @@
                 "sentence": "The weather was so beautiful that we just ___ and went to the park instead."
             }
         ]
+    },
+
+    {
+        "title": "Banking & Personal Finance 🏦",
+        "date": "2026-09-14",
+        "questions": [
+            {
+                "meaning": "송금하다 / 이체하다",
+                "answers": ["transfer"],
+                "sentence": "I need to ___ some money to my parents' bank account this afternoon."
+            },
+            {
+                "meaning": "잔액 / 잔고",
+                "answers": ["balance"],
+                "sentence": "I checked my bank ___ online and realized I spent way too much this month."
+            },
+            {
+                "meaning": "체크카드",
+                "answers": ["debit card"],
+                "sentence": "I prefer using a ___ instead of a credit card because it prevents me from overspending."
+            },
+            {
+                "meaning": "입출금 (자유) 계좌",
+                "answers": ["checking account"],
+                "sentence": "Your monthly salary will be automatically deposited into your ___."
+            },
+            {
+                "meaning": "적금 / 예금 계좌",
+                "answers": ["savings account"],
+                "sentence": "She transfers a portion of her paycheck into her ___ every month for the future."
+            },
+            {
+                "meaning": "할부",
+                "answers": ["installment", "installments"],
+                "sentence": "The laptop was too expensive, so I decided to pay for it in ___."
+            },
+            {
+                "meaning": "일시불",
+                "answers": ["lump sum"],
+                "sentence": "Instead of paying monthly, he paid for his new car in a ___."
+            },
+            {
+                "meaning": "출금하다 / 돈을 뽑다",
+                "answers": ["withdraw"],
+                "sentence": "I need to stop by the ATM to ___ some cash for the weekend trip."
+            },
+            {
+                "meaning": "입금하다",
+                "answers": ["deposit"],
+                "sentence": "I went to the bank yesterday to ___ a large check I received."
+            },
+            {
+                "meaning": "이자율 / 금리",
+                "answers": ["interest rate"],
+                "sentence": "This bank offers a very high ___ for long-term customers."
+            },
+            {
+                "meaning": "환율",
+                "answers": ["exchange rate"],
+                "sentence": "The ___ is very high right now, so it is quite expensive to travel abroad."
+            },
+            {
+                "meaning": "대출을 받다",
+                "answers": ["take out a loan", "took out a loan"],
+                "sentence": "They didn't have enough money, so they ___ to start their new restaurant business."
+            },
+            {
+                "meaning": "공인인증서 / 디지털 인증서",
+                "answers": ["digital certificate"],
+                "sentence": "In Korea, you often need a ___ to log into government and banking websites."
+            },
+            {
+                "meaning": "은행 수수료",
+                "answers": ["bank fee", "bank fees"],
+                "sentence": "You will be charged extra ___ if you use another bank's ATM late at night."
+            },
+            {
+                "meaning": "명세서 / 거래 내역서",
+                "answers": ["statement"],
+                "sentence": "Carefully check your monthly credit card ___ to make sure there are no errors."
+            }
+        ]
     }
 ]
