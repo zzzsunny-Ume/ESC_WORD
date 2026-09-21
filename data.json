@@ -3253,5 +3253,87 @@
                 "sentence": "Carefully check your monthly credit card ___ to make sure there are no errors."
             }
         ]
+    },
+
+    {
+        "title": "Company Life Part 2: Working Culture 🏢",
+        "date": "2026-09-21",
+        "questions": [
+            {
+                "meaning": "야근하다",
+                "answers": ["work overtime"],
+                "sentence": "I had to ___ yesterday to finish the urgent sales report."
+            },
+            {
+                "meaning": "연차 / 유급 휴가",
+                "answers": ["paid leave"],
+                "sentence": "Employees are officially given fifteen days of ___ every year."
+            },
+            {
+                "meaning": "병가",
+                "answers": ["sick leave"],
+                "sentence": "He is currently on ___ because he caught a really bad flu."
+            },
+            {
+                "meaning": "회식",
+                "answers": ["company dinner"],
+                "sentence": "We are having a ___ tonight to welcome the new team members."
+            },
+            {
+                "meaning": "출근 기록을 하다 / 출근 도장을 찍다",
+                "answers": ["clock in"],
+                "sentence": "Don't forget to ___ exactly when you arrive at the office."
+            },
+            {
+                "meaning": "퇴근 기록을 하다 / 퇴근 도장을 찍다",
+                "answers": ["clock out"],
+                "sentence": "I usually ___ at 6 PM and go straight to the gym."
+            },
+            {
+                "meaning": "퇴근하다 / 일과를 마치다 (칼퇴하다)",
+                "answers": ["get off work"],
+                "sentence": "What time do you usually ___ on Fridays?"
+            },
+            {
+                "meaning": "(업무를) 인수인계하다",
+                "answers": ["hand over"],
+                "sentence": "I need to ___ all my pending tasks to my coworker before my vacation."
+            },
+            {
+                "meaning": "승진하다",
+                "answers": ["get promoted", "got promoted"],
+                "sentence": "She ___ to senior manager after working incredibly hard this year."
+            },
+            {
+                "meaning": "사직서",
+                "answers": ["resignation letter"],
+                "sentence": "He finally submitted his ___ to the HR department this morning."
+            },
+            {
+                "meaning": "급여 명세서",
+                "answers": ["pay stub"],
+                "sentence": "You can easily check your bonuses and taxes on your online ___."
+            },
+            {
+                "meaning": "농땡이 피우다 / 요령 피우다",
+                "answers": ["slack off", "slacking off"],
+                "sentence": "The boss got angry because some employees were ___ during working hours."
+            },
+            {
+                "meaning": "유연 근무제",
+                "answers": ["flexible working hours"],
+                "sentence": "Our company recently adopted ___ to improve the work-life balance of employees."
+            },
+            {
+                "meaning": "수습 기간",
+                "answers": ["probationary period"],
+                "sentence": "New employees must complete a three-month ___ before becoming permanent staff."
+            },
+            {
+                "meaning": "(일이 많아) 파묻히다 / 눈코 뜰 새 없이 바쁘다",
+                "answers": ["snow under", "snowed under"],
+                "sentence": "I can't go out for lunch today because I am completely ___ with paperwork."
+            }
+        ]
     }
 ]
