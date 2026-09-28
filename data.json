@@ -3335,5 +3335,88 @@
                 "sentence": "I can't go out for lunch today because I am completely ___ with paperwork."
             }
         ]
+    },
+
+
+    {
+        "title": "Weather & Seasons Expressions 🌤️",
+        "date": "2026-09-28",
+        "questions": [
+            {
+                "meaning": "환절기",
+                "answers": ["change of seasons"],
+                "sentence": "Many people easily catch a cold during the ___."
+            },
+            {
+                "meaning": "일교차",
+                "answers": ["temperature difference"],
+                "sentence": "You should bring a jacket because there is a huge ___ between day and night."
+            },
+            {
+                "meaning": "옷을 여러 겹 껴입다",
+                "answers": ["layer up"],
+                "sentence": "It is really cold outside, so make sure to ___ before you go out."
+            },
+            {
+                "meaning": "쌀쌀한",
+                "answers": ["chilly"],
+                "sentence": "The wind is quite ___ this evening, so I need a light sweater."
+            },
+            {
+                "meaning": "체감 온도",
+                "answers": ["wind chill"],
+                "sentence": "It is 5 degrees outside, but the ___ makes it feel like minus 2."
+            },
+            {
+                "meaning": "영하의",
+                "answers": ["below zero"],
+                "sentence": "The temperature is expected to drop ___ tonight."
+            },
+            {
+                "meaning": "얼어붙을 듯이 추운",
+                "answers": ["freezing"],
+                "sentence": "Can you please close the window? It is absolutely ___ in this room!"
+            },
+            {
+                "meaning": "포근한 / 온화한",
+                "answers": ["mild"],
+                "sentence": "We had a surprisingly ___ winter last year with almost no snow."
+            },
+            {
+                "meaning": "꽃가루 알레르기",
+                "answers": ["hay fever"],
+                "sentence": "Spring is beautiful, but my ___ makes my eyes itch and nose run all day."
+            },
+            {
+                "meaning": "미세먼지",
+                "answers": ["fine dust"],
+                "sentence": "You should definitely wear a mask today because the ___ level is very high."
+            },
+            {
+                "meaning": "변덕스러운 (날씨가)",
+                "answers": ["unpredictable"],
+                "sentence": "The weather in this city is notoriously ___, so always carry an umbrella."
+            },
+            {
+                "meaning": "소나기",
+                "answers": ["shower", "showers"],
+                "sentence": "The weather forecast says there will be brief scattered ___ in the afternoon."
+            },
+            {
+                "meaning": "후텁지근한 / 덥고 끈적이는",
+                "answers": ["muggy"],
+                "sentence": "I really hate summer here because the air is always so hot and ___."
+            },
+            {
+                "meaning": "푹푹 찌는 듯이 더운",
+                "answers": ["scorching"],
+                "sentence": "We stayed inside with the air conditioner on all day because of the ___ heat."
+            },
+            {
+                "meaning": "열대야 (밤에도 기온이 떨어지지 않는 현상)",
+                "answers": ["tropical night"],
+                "sentence": "I couldn't sleep well at all yesterday because it was another ___."
+            }
+        ]
     }
 ]
