@@ -3567,11 +3567,6 @@
                 "sentence": "That loud construction noise outside is really ___ me today."
             },
             {
-                "meaning": "설레다 / (긴장해서) 조마조마하다",
-                "answers": ["butterflies"],
-                "sentence": "I always get ___ in my stomach right before I go on a blind date."
-            },
-            {
                 "meaning": "기죽은 / 위축된 (쫄다)",
                 "answers": ["intimidated"],
                 "sentence": "I felt a little ___ by all the highly experienced people in the meeting room."
