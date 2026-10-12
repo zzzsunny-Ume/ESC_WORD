@@ -3500,5 +3500,87 @@
                 "sentence": "I have a terrible ___ this morning because we mixed beer and wine."
             }
         ]
+    },
+
+    {
+        "title": "Emotions & Moods 🎭",
+        "date": "2026-10-12",
+        "questions": [
+            {
+                "meaning": "귀찮은 일 / 번거로움",
+                "answers": ["hassle"],
+                "sentence": "Going all the way to the supermarket just to buy milk is such a ___."
+            },
+            {
+                "meaning": "아쉬운 / 실망한",
+                "answers": ["bummed", "disappointed"],
+                "sentence": "I was really ___ that we couldn't go to the concert together."
+            },
+            {
+                "meaning": "어색한 / 뻘쭘한",
+                "answers": ["awkward"],
+                "sentence": "There was an ___ silence in the room after he made that bad joke."
+            },
+            {
+                "meaning": "(상황이나 마음이) 답답한 / 짜증 나는",
+                "answers": ["frustrating", "frustrated"],
+                "sentence": "It is so ___ when the internet connection keeps dropping during a meeting."
+            },
+            {
+                "meaning": "(공간이나 공기가) 답답한 / 숨 막히는",
+                "answers": ["stuffy"],
+                "sentence": "Can we open a window? It feels really ___ in this small room."
+            },
+            {
+                "meaning": "안도하는 / 마음이 놓이는 (다행이다)",
+                "answers": ["relieved"],
+                "sentence": "I was so ___ to hear that everyone arrived home safely."
+            },
+            {
+                "meaning": "눈치를 보다 / 살얼음판을 걷듯 조심하다",
+                "answers": ["walk on eggshells", "walking on eggshells"],
+                "sentence": "My boss is in a terrible mood today, so everyone is ___ around him."
+            },
+            {
+                "meaning": "어이가 없는 / 말도 안 되는",
+                "answers": ["ridiculous"],
+                "sentence": "The price they are charging for a basic cup of coffee is absolutely ___."
+            },
+            {
+                "meaning": "삐지다 / 토라지다",
+                "answers": ["sulk", "sulking"],
+                "sentence": "She has been ___ in her room all day because I forgot our anniversary."
+            },
+            {
+                "meaning": "(감동이나 일이 많아) 벅찬 / 압도되는",
+                "answers": ["overwhelmed"],
+                "sentence": "I was completely ___ by the surprise birthday party and started crying."
+            },
+            {
+                "meaning": "소름 / 닭살",
+                "answers": ["goosebumps"],
+                "sentence": "The singer's voice was so beautiful that it literally gave me ___."
+            },
+            {
+                "meaning": "거슬리다 / 신경 쓰이게 하다",
+                "answers": ["bother", "bothering"],
+                "sentence": "That loud construction noise outside is really ___ me today."
+            },
+            {
+                "meaning": "설레다 / (긴장해서) 조마조마하다",
+                "answers": ["butterflies"],
+                "sentence": "I always get ___ in my stomach right before I go on a blind date."
+            },
+            {
+                "meaning": "기죽은 / 위축된 (쫄다)",
+                "answers": ["intimidated"],
+                "sentence": "I felt a little ___ by all the highly experienced people in the meeting room."
+            },
+            {
+                "meaning": "소외감을 느끼는 / 서운한",
+                "answers": ["left out"],
+                "sentence": "I felt a little bit ___ when they went to the cafe without inviting me."
+            }
+        ]
     }
 ]
