@@ -3513,7 +3513,7 @@
             },
             {
                 "meaning": "아쉬운 / 실망한",
-                "answers": ["bummed", "disappointed"],
+                "answers": ["bummed"],
                 "sentence": "I was really ___ that we couldn't go to the concert together."
             },
             {
@@ -3523,7 +3523,7 @@
             },
             {
                 "meaning": "(상황이나 마음이) 답답한 / 짜증 나는",
-                "answers": ["frustrating", "frustrated"],
+                "answers": ["frustrating"],
                 "sentence": "It is so ___ when the internet connection keeps dropping during a meeting."
             },
             {
@@ -3538,7 +3538,7 @@
             },
             {
                 "meaning": "눈치를 보다 / 살얼음판을 걷듯 조심하다",
-                "answers": ["walk on eggshells", "walking on eggshells"],
+                "answers": ["walking on eggshells"],
                 "sentence": "My boss is in a terrible mood today, so everyone is ___ around him."
             },
             {
@@ -3548,7 +3548,7 @@
             },
             {
                 "meaning": "삐지다 / 토라지다",
-                "answers": ["sulk", "sulking"],
+                "answers": ["sulking"],
                 "sentence": "She has been ___ in her room all day because I forgot our anniversary."
             },
             {
@@ -3558,13 +3558,18 @@
             },
             {
                 "meaning": "소름 / 닭살",
-                "answers": ["goosebumps"],
+                "answers": ["goosebumps", "goose bumps"],
                 "sentence": "The singer's voice was so beautiful that it literally gave me ___."
             },
             {
                 "meaning": "거슬리다 / 신경 쓰이게 하다",
-                "answers": ["bother", "bothering"],
+                "answers": ["bothering"],
                 "sentence": "That loud construction noise outside is really ___ me today."
+            },
+            {
+                "meaning": "설레다 / (긴장해서) 조마조마하다",
+                "answers": ["butterflies"],
+                "sentence": "I always get ___ in my stomach right before I go on a blind date."
             },
             {
                 "meaning": "기죽은 / 위축된 (쫄다)",
@@ -3573,7 +3578,7 @@
             },
             {
                 "meaning": "소외감을 느끼는 / 서운한",
-                "answers": ["left out"],
+                "answers": ["left out", "left-out"],
                 "sentence": "I felt a little bit ___ when they went to the cafe without inviting me."
             }
         ]
