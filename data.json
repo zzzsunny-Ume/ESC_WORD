@@ -3577,5 +3577,87 @@
                 "sentence": "I felt a little bit ___ when they went to the cafe without inviting me."
             }
         ]
+    },
+
+    {
+        "title": "Relationships & Communication 🗣️",
+        "date": "2026-10-20",
+        "questions": [
+            {
+                "meaning": "손절하다 / 관계를 끊다",
+                "answers": ["cut ties", "cut off"],
+                "sentence": "I had to ___ with him because his negative attitude was ruining my mental health."
+            },
+            {
+                "meaning": "잠수 타다 (연락을 끊고 사라지다)",
+                "answers": ["ghost", "ghosted"],
+                "sentence": "We went on three great dates, but then he suddenly ___ me without any explanation."
+            },
+            {
+                "meaning": "연락을 유지하다 / 계속 연락하고 지내다",
+                "answers": ["keep in touch"],
+                "sentence": "Even after you move to another country, please let's ___."
+            },
+            {
+                "meaning": "바람맞히다 (약속에 나타나지 않다)",
+                "answers": ["stand up", "stood up"],
+                "sentence": "I waited at the cafe for two hours, but she completely ___ me."
+            },
+            {
+                "meaning": "화해하다",
+                "answers": ["make up", "made up"],
+                "sentence": "They had a huge fight yesterday, but they already ___ this morning."
+            },
+            {
+                "meaning": "죽이 잘 맞다 / 금방 친해지다",
+                "answers": ["hit it off"],
+                "sentence": "We met for the first time at the party yesterday, but we instantly ___."
+            },
+            {
+                "meaning": "선을 넘다",
+                "answers": ["cross the line", "crossed the line"],
+                "sentence": "You can joke about my clothes, but you completely ___ when you insulted my family."
+            },
+            {
+                "meaning": "지인 / 아는 사람",
+                "answers": ["acquaintance", "acquaintances"],
+                "sentence": "He is not a close friend of mine; he is just a business ___."
+            },
+            {
+                "meaning": "밀당하다 (연애에서)",
+                "answers": ["play hard to get", "playing hard to get"],
+                "sentence": "I don't like it when people try to ___ instead of being honest about their feelings."
+            },
+            {
+                "meaning": "참견하기 좋아하는 / 오지랖 넓은",
+                "answers": ["nosy"],
+                "sentence": "My ___ neighbor is always asking uncomfortable questions about my personal life."
+            },
+            {
+                "meaning": "거리를 두다",
+                "answers": ["keep my distance", "distance myself"],
+                "sentence": "She is always complaining and negative, so I try to ___ from her."
+            },
+            {
+                "meaning": "앙심을 품다 / 뒤끝이 있다",
+                "answers": ["hold a grudge", "holding a grudge"],
+                "sentence": "Even though I apologized a year ago, he still seems to ___ against me."
+            },
+            {
+                "meaning": "어울려 놀다 / 시간을 보내다",
+                "answers": ["hang out", "hanging out"],
+                "sentence": "Do you want to ___ with us at the shopping mall this weekend?"
+            },
+            {
+                "meaning": "뒷담화하다",
+                "answers": ["talk behind my back", "talk behind his back", "talk behind her back", "talk behind someone's back"],
+                "sentence": "If you have a problem with me, tell me directly instead of trying to ___."
+            },
+            {
+                "meaning": "인맥을 쌓다 / 교류하다",
+                "answers": ["network", "networking"],
+                "sentence": "Going to industry conferences is a great opportunity to ___ with other professionals."
+            }
+        ]
     }
 ]
