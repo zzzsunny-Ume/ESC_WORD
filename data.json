@@ -3659,5 +3659,87 @@
                 "sentence": "Going to industry conferences is a great opportunity to ___ with other professionals."
             }
         ]
+    },
+
+    {
+        "title": "Crime-related Words 🚨",
+        "date": "2026-10-26",
+        "questions": [
+            {
+                "meaning": "밀수하다",
+                "answers": ["smuggle", "smuggling"],
+                "sentence": "He was arrested at the airport for ___ gold in his suitcase."
+            },
+            {
+                "meaning": "횡령하다",
+                "answers": ["embezzle", "embezzled"],
+                "sentence": "The executive ___ millions of dollars from the company accounts."
+            },
+            {
+                "meaning": "납치하다",
+                "answers": ["kidnap"],
+                "sentence": "The criminals planned to ___ the rich man's son for a large ransom."
+            },
+            {
+                "meaning": "협박하다 / 갈취하다",
+                "answers": ["blackmail", "blackmailed"],
+                "sentence": "She ___ her boss with the secret photos she found on his computer."
+            },
+            {
+                "meaning": "뇌물을 주다",
+                "answers": ["bribe", "bribed"],
+                "sentence": "He ___ the police officer with cash to avoid getting a speeding ticket."
+            },
+            {
+                "meaning": "위조하다",
+                "answers": ["forge", "forged"],
+                "sentence": "He was arrested because he ___ his manager's signature on the legal document."
+            },
+            {
+                "meaning": "가게 좀도둑질을 하다",
+                "answers": ["shoplift", "shoplifting"],
+                "sentence": "The teenager was caught ___ a pair of expensive shoes from the mall."
+            },
+            {
+                "meaning": "뺑소니",
+                "answers": ["hit-and-run", "hit and run"],
+                "sentence": "The police are still searching for the driver involved in the fatal ___ accident."
+            },
+            {
+                "meaning": "수갑을 채우다",
+                "answers": ["handcuff", "handcuffed"],
+                "sentence": "The officer immediately ___ the aggressive suspect to maintain safety."
+            },
+            {
+                "meaning": "심문하다",
+                "answers": ["interrogate", "interrogating"],
+                "sentence": "The detectives are currently ___ the suspect in the secret room."
+            },
+            {
+                "meaning": "체포하다",
+                "answers": ["arrest", "arrested"],
+                "sentence": "The police quickly ___ the bank robbers before they could escape the city."
+            },
+            {
+                "meaning": "기소하다 / 고발하다",
+                "answers": ["prosecute", "prosecuted"],
+                "sentence": "The government successfully ___ him for his severe financial crimes."
+            },
+            {
+                "meaning": "자백하다 / 범행을 인정하다",
+                "answers": ["confess", "confessed"],
+                "sentence": "After feeling guilty for weeks, he finally went to the police station and ___."
+            },
+            {
+                "meaning": "판결을 내리다 / 선고하다",
+                "answers": ["sentence", "sentenced"],
+                "sentence": "The judge ___ the dangerous criminal to ten years in federal prison."
+            },
+            {
+                "meaning": "암살하다",
+                "answers": ["assassinate", "assassinated"],
+                "sentence": "The spy successfully ___ the enemy leader during the public parade."
+            }
+        ]
     }
 ]
