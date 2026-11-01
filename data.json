@@ -3741,5 +3741,87 @@
                 "sentence": "The spy successfully ___ the enemy leader during the public parade."
             }
         ]
+    },
+
+    {
+        "title": "Natural Disasters 🌪️",
+        "date": "2026-11-02",
+        "questions": [
+            {
+                "meaning": "지진",
+                "answers": ["earthquake"],
+                "sentence": "The building shook violently during the massive ___ last night."
+            },
+            {
+                "meaning": "대피하다",
+                "answers": ["evacuate", "evacuated"],
+                "sentence": "The police ___ the entire building before the fire spread."
+            },
+            {
+                "meaning": "붕괴하다 / 무너지다",
+                "answers": ["collapse", "collapsed"],
+                "sentence": "Many old houses ___ completely due to the powerful earthquake."
+            },
+            {
+                "meaning": "휩쓸어가다",
+                "answers": ["sweep away", "swept away"],
+                "sentence": "The strong tsunami waves ___ several cars parked near the beach."
+            },
+            {
+                "meaning": "구조하다",
+                "answers": ["rescue", "rescued"],
+                "sentence": "The helicopter quickly ___ the people trapped on the roof."
+            },
+            {
+                "meaning": "강타하다 / 덮치다",
+                "answers": ["strike", "struck"],
+                "sentence": "A massive typhoon ___ the southern coast yesterday morning."
+            },
+            {
+                "meaning": "복구하다",
+                "answers": ["restore", "restored"],
+                "sentence": "The city workers have finally ___ electricity to all the homes."
+            },
+            {
+                "meaning": "정리 작업 / 사후 처리 작업",
+                "answers": ["clean-up", "clean up"],
+                "sentence": "The local community organized a massive ___ operation after the storm."
+            },
+            {
+                "meaning": "비축하다 / (만약을 대비해) 사두다",
+                "answers": ["stockpile", "stockpiling"],
+                "sentence": "People started ___ food and bottled water before the storm arrived."
+            },
+            {
+                "meaning": "(화산이) 폭발하다",
+                "answers": ["erupt", "erupted"],
+                "sentence": "The volcano suddenly ___ and sent thick ash into the sky."
+            },
+            {
+                "meaning": "집어삼키다 / 휩싸다",
+                "answers": ["engulf", "engulfed"],
+                "sentence": "The huge wildfire quickly ___ the entire forest in a matter of hours."
+            },
+            {
+                "meaning": "대피소 / 피난처",
+                "answers": ["shelter"],
+                "sentence": "The local school was turned into an emergency ___ for the victims."
+            },
+            {
+                "meaning": "파괴하다",
+                "answers": ["destroy", "destroyed"],
+                "sentence": "The powerful tornado completely ___ several houses in the small town."
+            },
+            {
+                "meaning": "가뭄",
+                "answers": ["drought"],
+                "sentence": "The farmers lost all their crops this year because of the severe ___."
+            },
+            {
+                "meaning": "피해를 입히다 / 손상시키다",
+                "answers": ["damage", "damaged"],
+                "sentence": "The heavy rain deeply ___ the roads, making them impossible to drive on."
+            }
+        ]
     }
 ]
